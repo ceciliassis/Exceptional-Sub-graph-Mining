@@ -1,0 +1,1193 @@
+{
+	descriptorsMetaData : [
+		{
+			descriptorName: "SanFransiscoCrimes",
+			attributesType: "nominal",
+			attributesName: ["Outdoors & Recreation","Shop & Service","College & University","Travel & Transport","Event","Nightlife Spot","Residence","Arts & Entertainment","Professional & Other Places","Food"]
+		}
+	],
+	vertices : [
+		{
+			vertexId : "V(0,0)",
+			descriptorsValues :[
+				[11,6,0,3,0,15,9,4,14,28]
+			]
+		},
+		{
+			vertexId : "V(0,2)",
+			descriptorsValues :[
+				[21,35,4,20,2,26,23,24,40,61]
+			]
+		},
+		{
+			vertexId : "V(0,3)",
+			descriptorsValues :[
+				[37,15,4,26,1,38,26,6,40,67]
+			]
+		},
+		{
+			vertexId : "V(0,4)",
+			descriptorsValues :[
+				[8,14,0,8,0,10,14,5,6,24]
+			]
+		},
+		{
+			vertexId : "V(0,5)",
+			descriptorsValues :[
+				[5,16,5,9,0,6,10,4,16,9]
+			]
+		},
+		{
+			vertexId : "V(0,6)",
+			descriptorsValues :[
+				[20,20,10,31,1,38,21,26,17,77]
+			]
+		},
+		{
+			vertexId : "V(0,7)",
+			descriptorsValues :[
+				[10,21,0,10,0,9,7,2,6,17]
+			]
+		},
+		{
+			vertexId : "V(1,5)",
+			descriptorsValues :[
+				[19,15,0,17,0,20,17,9,28,33]
+			]
+		},
+		{
+			vertexId : "V(1,6)",
+			descriptorsValues :[
+				[34,45,1,23,2,22,18,6,68,79]
+			]
+		},
+		{
+			vertexId : "V(1,7)",
+			descriptorsValues :[
+				[9,4,1,14,2,18,3,15,8,33]
+			]
+		},
+		{
+			vertexId : "V(2,0)",
+			descriptorsValues :[
+				[20,105,3,18,0,11,13,8,35,95]
+			]
+		},
+		{
+			vertexId : "V(2,5)",
+			descriptorsValues :[
+				[29,28,10,25,1,30,42,12,48,72]
+			]
+		},
+		{
+			vertexId : "V(2,6)",
+			descriptorsValues :[
+				[19,9,3,19,0,17,24,8,25,34]
+			]
+		},
+		{
+			vertexId : "V(2,7)",
+			descriptorsValues :[
+				[16,11,0,21,13,4,8,15,48,21]
+			]
+		},
+		{
+			vertexId : "V(3,0)",
+			descriptorsValues :[
+				[12,15,0,11,0,14,5,6,16,40]
+			]
+		},
+		{
+			vertexId : "V(3,1)",
+			descriptorsValues :[
+				[21,14,4,29,0,21,15,6,26,58]
+			]
+		},
+		{
+			vertexId : "V(3,5)",
+			descriptorsValues :[
+				[42,41,23,21,1,39,29,25,32,83]
+			]
+		},
+		{
+			vertexId : "V(3,6)",
+			descriptorsValues :[
+				[13,11,2,13,0,9,14,4,15,22]
+			]
+		},
+		{
+			vertexId : "V(3,7)",
+			descriptorsValues :[
+				[7,4,0,10,0,1,2,0,4,2]
+			]
+		},
+		{
+			vertexId : "V(4,0)",
+			descriptorsValues :[
+				[9,4,0,14,0,1,4,1,5,12]
+			]
+		},
+		{
+			vertexId : "V(4,1)",
+			descriptorsValues :[
+				[15,45,4,27,0,19,10,14,21,100]
+			]
+		},
+		{
+			vertexId : "V(4,3)",
+			descriptorsValues :[
+				[22,34,10,16,2,36,13,9,39,60]
+			]
+		},
+		{
+			vertexId : "V(4,5)",
+			descriptorsValues :[
+				[17,41,2,18,2,44,12,15,31,85]
+			]
+		},
+		{
+			vertexId : "V(4,6)",
+			descriptorsValues :[
+				[16,60,0,22,3,10,6,28,18,78]
+			]
+		},
+		{
+			vertexId : "V(4,7)",
+			descriptorsValues :[
+				[6,6,5,12,0,15,6,6,11,20]
+			]
+		},
+		{
+			vertexId : "V(5,0)",
+			descriptorsValues :[
+				[4,7,0,9,0,3,2,4,3,14]
+			]
+		},
+		{
+			vertexId : "V(5,1)",
+			descriptorsValues :[
+				[12,11,4,7,0,8,14,2,5,46]
+			]
+		},
+		{
+			vertexId : "V(5,2)",
+			descriptorsValues :[
+				[19,11,3,5,1,12,2,10,20,33]
+			]
+		},
+		{
+			vertexId : "V(5,3)",
+			descriptorsValues :[
+				[26,33,10,31,1,35,33,16,29,69]
+			]
+		},
+		{
+			vertexId : "V(5,4)",
+			descriptorsValues :[
+				[11,39,1,12,0,55,31,14,16,101]
+			]
+		},
+		{
+			vertexId : "V(5,5)",
+			descriptorsValues :[
+				[18,14,5,5,0,8,12,4,4,25]
+			]
+		},
+		{
+			vertexId : "V(5,6)",
+			descriptorsValues :[
+				[9,9,0,5,1,3,2,4,3,11]
+			]
+		},
+		{
+			vertexId : "V(5,7)",
+			descriptorsValues :[
+				[6,3,0,2,0,6,4,1,4,9]
+			]
+		},
+		{
+			vertexId : "V(6,0)",
+			descriptorsValues :[
+				[7,30,1,9,0,0,1,2,7,20]
+			]
+		},
+		{
+			vertexId : "V(6,1)",
+			descriptorsValues :[
+				[5,9,1,5,0,2,3,0,5,24]
+			]
+		},
+		{
+			vertexId : "V(6,2)",
+			descriptorsValues :[
+				[9,3,0,1,0,15,3,3,7,21]
+			]
+		},
+		{
+			vertexId : "V(6,3)",
+			descriptorsValues :[
+				[13,18,1,10,0,15,7,2,9,51]
+			]
+		},
+		{
+			vertexId : "V(6,4)",
+			descriptorsValues :[
+				[12,22,1,16,1,11,12,3,15,31]
+			]
+		},
+		{
+			vertexId : "V(6,5)",
+			descriptorsValues :[
+				[4,0,0,0,0,2,3,0,3,4]
+			]
+		},
+		{
+			vertexId : "V(6,6)",
+			descriptorsValues :[
+				[4,16,0,8,1,6,2,1,6,28]
+			]
+		},
+		{
+			vertexId : "V(6,7)",
+			descriptorsValues :[
+				[6,3,1,9,0,9,2,2,8,25]
+			]
+		},
+		{
+			vertexId : "V(7,0)",
+			descriptorsValues :[
+				[6,8,13,6,0,3,4,0,9,27]
+			]
+		},
+		{
+			vertexId : "V(7,1)",
+			descriptorsValues :[
+				[5,7,1,1,0,0,7,2,4,8]
+			]
+		},
+		{
+			vertexId : "V(7,2)",
+			descriptorsValues :[
+				[10,11,0,10,0,9,7,3,4,35]
+			]
+		},
+		{
+			vertexId : "V(7,3)",
+			descriptorsValues :[
+				[11,26,4,6,0,12,10,10,11,30]
+			]
+		},
+		{
+			vertexId : "V(7,4)",
+			descriptorsValues :[
+				[14,21,3,9,0,5,19,7,3,29]
+			]
+		},
+		{
+			vertexId : "V(7,5)",
+			descriptorsValues :[
+				[14,12,1,9,0,9,5,6,9,13]
+			]
+		},
+		{
+			vertexId : "V(7,6)",
+			descriptorsValues :[
+				[10,16,1,5,0,12,2,3,9,32]
+			]
+		},
+		{
+			vertexId : "V(7,7)",
+			descriptorsValues :[
+				[5,6,0,2,0,6,2,1,1,10]
+			]
+		},
+		{
+			vertexId : "V 2",
+			descriptorsValues :[
+				[13,27,2,16,3,26,14,11,43,75]
+			]
+		},
+		{
+			vertexId : "V 2 (2)",
+			descriptorsValues :[
+				[16,16,3,9,1,28,6,11,21,68]
+			]
+		},
+		{
+			vertexId : "V 9",
+			descriptorsValues :[
+				[7,12,7,9,0,20,3,3,13,49]
+			]
+		},
+		{
+			vertexId : "V 9 (2)",
+			descriptorsValues :[
+				[26,42,4,38,6,36,8,14,75,91]
+			]
+		},
+		{
+			vertexId : "V 10",
+			descriptorsValues :[
+				[15,40,1,44,3,17,13,9,40,95]
+			]
+		},
+		{
+			vertexId : "V 12 (2)",
+			descriptorsValues :[
+				[19,32,8,78,8,43,7,32,61,99]
+			]
+		},
+		{
+			vertexId : "V 13",
+			descriptorsValues :[
+				[15,35,34,39,1,55,11,18,75,80]
+			]
+		},
+		{
+			vertexId : "V 13 (2)",
+			descriptorsValues :[
+				[27,28,4,40,0,47,16,21,77,103]
+			]
+		},
+		{
+			vertexId : "V 18",
+			descriptorsValues :[
+				[16,34,3,62,0,29,18,9,35,107]
+			]
+		},
+		{
+			vertexId : "V 27",
+			descriptorsValues :[
+				[10,16,10,36,0,13,13,10,25,60]
+			]
+		},
+		{
+			vertexId : "V 27 (2)",
+			descriptorsValues :[
+				[15,13,15,20,1,21,3,21,87,62]
+			]
+		},
+		{
+			vertexId : "V 35",
+			descriptorsValues :[
+				[10,11,2,6,0,8,5,5,5,34]
+			]
+		},
+		{
+			vertexId : "V 37",
+			descriptorsValues :[
+				[13,32,3,17,0,56,13,7,21,100]
+			]
+		},
+		{
+			vertexId : "V 37 (2)",
+			descriptorsValues :[
+				[16,41,3,11,1,40,12,14,24,85]
+			]
+		},
+		{
+			vertexId : "V 70",
+			descriptorsValues :[
+				[12,23,10,62,1,18,4,20,21,72]
+			]
+		},
+		{
+			vertexId : "V 70 (2)",
+			descriptorsValues :[
+				[7,25,23,20,2,18,13,9,34,63]
+			]
+		},
+		{
+			vertexId : "V 71",
+			descriptorsValues :[
+				[14,47,3,17,1,20,4,20,17,112]
+			]
+		},
+		{
+			vertexId : "V 71 (2)",
+			descriptorsValues :[
+				[17,66,11,19,1,19,16,11,25,104]
+			]
+		},
+		{
+			vertexId : "V 72",
+			descriptorsValues :[
+				[14,37,4,79,0,36,0,8,63,122]
+			]
+		},
+		{
+			vertexId : "V 72 (2)",
+			descriptorsValues :[
+				[15,9,3,21,1,23,6,15,52,48]
+			]
+		},
+		{
+			vertexId : "V 73",
+			descriptorsValues :[
+				[11,26,4,22,0,25,4,10,78,72]
+			]
+		},
+		{
+			vertexId : "V 73 (2)",
+			descriptorsValues :[
+				[26,10,2,20,1,20,6,10,92,29]
+			]
+		},
+		{
+			vertexId : "V 78",
+			descriptorsValues :[
+				[7,44,0,10,1,27,10,17,12,112]
+			]
+		},
+		{
+			vertexId : "V 78 (2)",
+			descriptorsValues :[
+				[18,32,2,74,0,18,15,9,55,96]
+			]
+		},
+		{
+			vertexId : "V 79",
+			descriptorsValues :[
+				[9,0,0,7,2,2,4,15,6,7]
+			]
+		},
+		{
+			vertexId : "V 80",
+			descriptorsValues :[
+				[16,24,3,85,3,37,31,6,39,130]
+			]
+		},
+		{
+			vertexId : "V 83",
+			descriptorsValues :[
+				[19,15,4,31,1,50,7,28,104,121]
+			]
+		},
+		{
+			vertexId : "V 83 (2)",
+			descriptorsValues :[
+				[32,27,4,29,3,63,3,12,100,121]
+			]
+		},
+		{
+			vertexId : "V 87 (2)",
+			descriptorsValues :[
+				[12,22,4,92,1,28,6,12,48,86]
+			]
+		},
+		{
+			vertexId : "V 88",
+			descriptorsValues :[
+				[13,34,20,13,1,36,5,9,109,105]
+			]
+		},
+		{
+			vertexId : "V 88 (2)",
+			descriptorsValues :[
+				[13,32,6,34,4,40,4,22,60,96]
+			]
+		},
+		{
+			vertexId : "V 89",
+			descriptorsValues :[
+				[22,40,24,13,4,33,6,14,118,84]
+			]
+		},
+		{
+			vertexId : "V 89 (2)",
+			descriptorsValues :[
+				[10,19,5,9,1,18,22,9,28,49]
+			]
+		},
+		{
+			vertexId : "V 90 (2)",
+			descriptorsValues :[
+				[9,16,5,3,0,23,14,12,20,42]
+			]
+		},
+		{
+			vertexId : "V 92",
+			descriptorsValues :[
+				[18,65,1,9,1,49,8,24,20,131]
+			]
+		},
+		{
+			vertexId : "V 92 (2)",
+			descriptorsValues :[
+				[9,9,4,4,0,12,1,9,12,28]
+			]
+		},
+		{
+			vertexId : "V 106",
+			descriptorsValues :[
+				[7,34,2,31,1,32,3,9,26,85]
+			]
+		},
+		{
+			vertexId : "V 106 (2)",
+			descriptorsValues :[
+				[8,99,1,15,1,31,5,20,41,73]
+			]
+		},
+		{
+			vertexId : "V 110",
+			descriptorsValues :[
+				[11,12,5,13,6,19,0,22,28,47]
+			]
+		},
+		{
+			vertexId : "V 110 (2)",
+			descriptorsValues :[
+				[14,37,5,12,1,48,4,30,52,118]
+			]
+		},
+		{
+			vertexId : "V 112",
+			descriptorsValues :[
+				[12,29,38,15,1,41,0,13,86,118]
+			]
+		},
+		{
+			vertexId : "V 112 (2)",
+			descriptorsValues :[
+				[10,30,5,10,2,36,10,2,115,79]
+			]
+		},
+		{
+			vertexId : "V 115",
+			descriptorsValues :[
+				[20,25,2,13,0,62,5,8,82,137]
+			]
+		},
+		{
+			vertexId : "V 115 (2)",
+			descriptorsValues :[
+				[12,29,6,9,2,33,1,11,91,65]
+			]
+		},
+		{
+			vertexId : "V 116 (2)",
+			descriptorsValues :[
+				[8,47,13,12,3,46,9,16,66,172]
+			]
+		},
+		{
+			vertexId : "V 117",
+			descriptorsValues :[
+				[11,28,45,23,2,31,0,9,80,87]
+			]
+		},
+		{
+			vertexId : "V 117 (2)",
+			descriptorsValues :[
+				[11,17,41,37,0,17,6,10,35,56]
+			]
+		},
+		{
+			vertexId : "V 123 (2)",
+			descriptorsValues :[
+				[12,72,3,16,2,56,0,47,75,110]
+			]
+		},
+		{
+			vertexId : "V 129",
+			descriptorsValues :[
+				[9,75,3,17,0,21,1,5,26,107]
+			]
+		},
+		{
+			vertexId : "V 129 (2)",
+			descriptorsValues :[
+				[4,29,5,9,0,13,3,6,21,82]
+			]
+		},
+		{
+			vertexId : "V 130",
+			descriptorsValues :[
+				[8,110,6,10,1,33,0,7,56,85]
+			]
+		},
+		{
+			vertexId : "V 130 (2)",
+			descriptorsValues :[
+				[2,16,4,8,0,18,15,3,73,41]
+			]
+		},
+		{
+			vertexId : "V 131",
+			descriptorsValues :[
+				[8,46,5,14,2,23,0,23,41,82]
+			]
+		},
+		{
+			vertexId : "V 131 (2)",
+			descriptorsValues :[
+				[7,18,5,31,3,28,0,25,46,59]
+			]
+		},
+		{
+			vertexId : "V 135 (2)",
+			descriptorsValues :[
+				[3,42,4,11,1,40,5,13,83,134]
+			]
+		},
+		{
+			vertexId : "V 136 (2)",
+			descriptorsValues :[
+				[2,20,10,22,2,13,2,12,34,58]
+			]
+		},
+		{
+			vertexId : "V 141",
+			descriptorsValues :[
+				[6,16,3,6,0,24,0,3,63,54]
+			]
+		},
+		{
+			vertexId : "V 141 (2)",
+			descriptorsValues :[
+				[17,27,0,28,0,22,4,2,58,68]
+			]
+		},
+		{
+			vertexId : "V 145",
+			descriptorsValues :[
+				[7,4,2,3,3,19,0,9,76,38]
+			]
+		},
+		{
+			vertexId : "V 145 (2)",
+			descriptorsValues :[
+				[9,36,4,12,0,65,4,24,75,96]
+			]
+		},
+		{
+			vertexId : "V 153",
+			descriptorsValues :[
+				[2,53,1,10,1,36,6,18,26,88]
+			]
+		},
+		{
+			vertexId : "V 154",
+			descriptorsValues :[
+				[5,24,2,10,3,45,7,24,32,114]
+			]
+		},
+		{
+			vertexId : "V 154 (2)",
+			descriptorsValues :[
+				[4,81,0,9,1,40,0,19,34,153]
+			]
+		},
+		{
+			vertexId : "V 155",
+			descriptorsValues :[
+				[6,73,4,7,0,35,1,14,70,79]
+			]
+		},
+		{
+			vertexId : "V 155 (2)",
+			descriptorsValues :[
+				[6,56,7,7,1,41,1,11,72,113]
+			]
+		},
+		{
+			vertexId : "V 157",
+			descriptorsValues :[
+				[6,51,6,10,1,49,3,24,39,112]
+			]
+		},
+		{
+			vertexId : "V 157 (2)",
+			descriptorsValues :[
+				[11,62,5,8,0,26,0,12,45,67]
+			]
+		},
+		{
+			vertexId : "V 164",
+			descriptorsValues :[
+				[5,44,0,3,3,21,0,6,51,65]
+			]
+		},
+		{
+			vertexId : "V 164 (2)",
+			descriptorsValues :[
+				[3,29,0,5,1,29,1,13,26,115]
+			]
+		}
+	],
+	edges : [
+		{
+			vertexId :"V(0,0)",
+			connected_vertices : ["V 2","V 9 (2)","V 9"],
+		},
+		{
+			vertexId :"V(0,2)",
+			connected_vertices : ["V 72","V 71","V 2 (2)","V(0,3)"],
+		},
+		{
+			vertexId :"V(0,3)",
+			connected_vertices : ["V 73","V 12 (2)","V(0,4)","V(0,2)"],
+		},
+		{
+			vertexId :"V(0,4)",
+			connected_vertices : ["V(0,5)","V 13","V 13 (2)","V(0,3)"],
+		},
+		{
+			vertexId :"V(0,5)",
+			connected_vertices : ["V(0,4)","V(1,5)","V(0,6)"],
+		},
+		{
+			vertexId :"V(0,6)",
+			connected_vertices : ["V(0,5)","V(0,7)","V(1,6)"],
+		},
+		{
+			vertexId :"V(0,7)",
+			connected_vertices : ["V(1,7)","V(0,6)"],
+		},
+		{
+			vertexId :"V(1,5)",
+			connected_vertices : ["V(0,5)","V(2,5)","V(1,6)","V 13 (2)"],
+		},
+		{
+			vertexId :"V(1,6)",
+			connected_vertices : ["V(2,6)","V(1,7)","V(1,5)","V(0,6)"],
+		},
+		{
+			vertexId :"V(1,7)",
+			connected_vertices : ["V(2,7)","V(0,7)","V(1,6)"],
+		},
+		{
+			vertexId :"V(2,0)",
+			connected_vertices : ["V 18","V(3,0)","V 9 (2)","V 78","V 9"],
+		},
+		{
+			vertexId :"V(2,5)",
+			connected_vertices : ["V 116 (2)","V(3,5)","V(2,6)","V(1,5)","V 83 (2)"],
+		},
+		{
+			vertexId :"V(2,6)",
+			connected_vertices : ["V(3,6)","V(2,7)","V(1,6)","V(2,5)"],
+		},
+		{
+			vertexId :"V(2,7)",
+			connected_vertices : ["V(3,7)","V(1,7)","V(2,6)"],
+		},
+		{
+			vertexId :"V(3,0)",
+			connected_vertices : ["V(2,0)","V(4,0)","V(3,1)"],
+		},
+		{
+			vertexId :"V(3,1)",
+			connected_vertices : ["V 78 (2)","V(3,0)","V 27","V 78","V(4,1)"],
+		},
+		{
+			vertexId :"V(3,5)",
+			connected_vertices : ["V(4,5)","V(3,6)","V 123 (2)","V 90 (2)","V(2,5)"],
+		},
+		{
+			vertexId :"V(3,6)",
+			connected_vertices : ["V(4,6)","V(3,7)","V(3,5)","V(2,6)"],
+		},
+		{
+			vertexId :"V(3,7)",
+			connected_vertices : ["V(4,7)","V(3,6)","V(2,7)"],
+		},
+		{
+			vertexId :"V(4,0)",
+			connected_vertices : ["V(3,0)","V(4,1)","V(5,0)"],
+		},
+		{
+			vertexId :"V(4,1)",
+			connected_vertices : ["V 35","V(5,1)","V(3,1)","V(4,0)"],
+		},
+		{
+			vertexId :"V(4,3)",
+			connected_vertices : ["V(5,3)","V 92 (2)","V 92","V 37","V 88 (2)","V 87 (2)"],
+		},
+		{
+			vertexId :"V(4,5)",
+			connected_vertices : ["V(5,5)","V(4,6)","V(3,5)","V 37 (2)"],
+		},
+		{
+			vertexId :"V(4,6)",
+			connected_vertices : ["V(4,7)","V(5,6)","V(3,6)","V(4,5)"],
+		},
+		{
+			vertexId :"V(4,7)",
+			connected_vertices : ["V(3,7)","V(4,6)","V(5,7)"],
+		},
+		{
+			vertexId :"V(5,0)",
+			connected_vertices : ["V(6,0)","V(5,1)","V(4,0)"],
+		},
+		{
+			vertexId :"V(5,1)",
+			connected_vertices : ["V(6,1)","V(5,2)","V(4,1)","V(5,0)"],
+		},
+		{
+			vertexId :"V(5,2)",
+			connected_vertices : ["V(6,2)","V(5,3)","V 92 (2)","V 35","V(5,1)"],
+		},
+		{
+			vertexId :"V(5,3)",
+			connected_vertices : ["V(6,3)","V(5,4)","V(4,3)","V(5,2)"],
+		},
+		{
+			vertexId :"V(5,4)",
+			connected_vertices : ["V(6,4)","V(5,5)","V(5,3)","V 37 (2)","V 37"],
+		},
+		{
+			vertexId :"V(5,5)",
+			connected_vertices : ["V(6,5)","V(5,6)","V(4,5)","V(5,4)"],
+		},
+		{
+			vertexId :"V(5,6)",
+			connected_vertices : ["V(5,5)","V(4,6)","V(6,6)","V(5,7)"],
+		},
+		{
+			vertexId :"V(5,7)",
+			connected_vertices : ["V(4,7)","V(5,6)","V(6,7)"],
+		},
+		{
+			vertexId :"V(6,0)",
+			connected_vertices : ["V(6,1)","V(7,0)","V(5,0)"],
+		},
+		{
+			vertexId :"V(6,1)",
+			connected_vertices : ["V(7,1)","V(6,2)","V(5,1)","V(6,0)"],
+		},
+		{
+			vertexId :"V(6,2)",
+			connected_vertices : ["V(7,2)","V(6,3)","V(5,2)","V(6,1)"],
+		},
+		{
+			vertexId :"V(6,3)",
+			connected_vertices : ["V(6,4)","V(5,3)","V(6,2)","V(7,3)"],
+		},
+		{
+			vertexId :"V(6,4)",
+			connected_vertices : ["V(6,5)","V(7,4)","V(5,4)","V(6,3)"],
+		},
+		{
+			vertexId :"V(6,5)",
+			connected_vertices : ["V(5,5)","V(6,4)","V(7,5)","V(6,6)"],
+		},
+		{
+			vertexId :"V(6,6)",
+			connected_vertices : ["V(5,6)","V(6,5)","V(7,6)","V(6,7)"],
+		},
+		{
+			vertexId :"V(6,7)",
+			connected_vertices : ["V(5,7)","V(6,6)","V(7,7)"],
+		},
+		{
+			vertexId :"V(7,0)",
+			connected_vertices : ["V(7,1)","V(6,0)"],
+		},
+		{
+			vertexId :"V(7,1)",
+			connected_vertices : ["V(7,2)","V(6,1)","V(7,0)"],
+		},
+		{
+			vertexId :"V(7,2)",
+			connected_vertices : ["V(7,1)","V(6,2)","V(7,3)"],
+		},
+		{
+			vertexId :"V(7,3)",
+			connected_vertices : ["V(7,2)","V(7,4)","V(6,3)"],
+		},
+		{
+			vertexId :"V(7,4)",
+			connected_vertices : ["V(6,4)","V(7,3)","V(7,5)"],
+		},
+		{
+			vertexId :"V(7,5)",
+			connected_vertices : ["V(6,5)","V(7,4)","V(7,6)"],
+		},
+		{
+			vertexId :"V(7,6)",
+			connected_vertices : ["V(7,5)","V(6,6)","V(7,7)"],
+		},
+		{
+			vertexId :"V(7,7)",
+			connected_vertices : ["V(7,6)","V(6,7)"],
+		},
+		{
+			vertexId :"V 2",
+			connected_vertices : ["V(0,0)","V 10"],
+		},
+		{
+			vertexId :"V 2 (2)",
+			connected_vertices : ["V 70","V(0,2)"],
+		},
+		{
+			vertexId :"V 9",
+			connected_vertices : ["V(0,0)","V(2,0)"],
+		},
+		{
+			vertexId :"V 9 (2)",
+			connected_vertices : ["V(0,0)","V(2,0)","V 10"],
+		},
+		{
+			vertexId :"V 10",
+			connected_vertices : ["V 18","V 2","V 9 (2)"],
+		},
+		{
+			vertexId :"V 12 (2)",
+			connected_vertices : ["V 13","V 110","V(0,3)"],
+		},
+		{
+			vertexId :"V 13",
+			connected_vertices : ["V 83","V 12 (2)","V(0,4)"],
+		},
+		{
+			vertexId :"V 13 (2)",
+			connected_vertices : ["V(0,4)","V(1,5)","V 83 (2)"],
+		},
+		{
+			vertexId :"V 18",
+			connected_vertices : ["V 70 (2)","V 79","V(2,0)","V 10"],
+		},
+		{
+			vertexId :"V 27",
+			connected_vertices : ["V 80","V 35","V(3,1)"],
+		},
+		{
+			vertexId :"V 27 (2)",
+			connected_vertices : ["V 92","V 129 (2)","V 117","V 87 (2)","V 130 (2)"],
+		},
+		{
+			vertexId :"V 35",
+			connected_vertices : ["V 27","V(5,2)","V(4,1)"],
+		},
+		{
+			vertexId :"V 37",
+			connected_vertices : ["V(5,4)","V 89 (2)","V(4,3)"],
+		},
+		{
+			vertexId :"V 37 (2)",
+			connected_vertices : ["V(4,5)","V(5,4)","V 90 (2)"],
+		},
+		{
+			vertexId :"V 70",
+			connected_vertices : ["V 71","V 2 (2)"],
+		},
+		{
+			vertexId :"V 70 (2)",
+			connected_vertices : ["V 18","V 71 (2)"],
+		},
+		{
+			vertexId :"V 71",
+			connected_vertices : ["V 70","V(0,2)"],
+		},
+		{
+			vertexId :"V 71 (2)",
+			connected_vertices : ["V 70 (2)","V 79"],
+		},
+		{
+			vertexId :"V 72",
+			connected_vertices : ["V 73","V(0,2)"],
+		},
+		{
+			vertexId :"V 72 (2)",
+			connected_vertices : ["V 73 (2)","V 106"],
+		},
+		{
+			vertexId :"V 73",
+			connected_vertices : ["V 72","V(0,3)"],
+		},
+		{
+			vertexId :"V 73 (2)",
+			connected_vertices : ["V 72 (2)","V 131 (2)","V 131"],
+		},
+		{
+			vertexId :"V 78",
+			connected_vertices : ["V(2,0)","V(3,1)"],
+		},
+		{
+			vertexId :"V 78 (2)",
+			connected_vertices : ["V 80","V(3,1)"],
+		},
+		{
+			vertexId :"V 79",
+			connected_vertices : ["V 18","V 71 (2)"],
+		},
+		{
+			vertexId :"V 80",
+			connected_vertices : ["V 78 (2)","V 27"],
+		},
+		{
+			vertexId :"V 83",
+			connected_vertices : ["V 110 (2)","V 13","V 110"],
+		},
+		{
+			vertexId :"V 83 (2)",
+			connected_vertices : ["V(2,5)","V 13 (2)"],
+		},
+		{
+			vertexId :"V 87 (2)",
+			connected_vertices : ["V 27 (2)","V(4,3)"],
+		},
+		{
+			vertexId :"V 88",
+			connected_vertices : ["V 112","V 112 (2)","V 89"],
+		},
+		{
+			vertexId :"V 88 (2)",
+			connected_vertices : ["V 89 (2)","V(4,3)"],
+		},
+		{
+			vertexId :"V 89",
+			connected_vertices : ["V 115","V 115 (2)","V 88"],
+		},
+		{
+			vertexId :"V 89 (2)",
+			connected_vertices : ["V 37","V 88 (2)"],
+		},
+		{
+			vertexId :"V 90 (2)",
+			connected_vertices : ["V(3,5)","V 37 (2)"],
+		},
+		{
+			vertexId :"V 92",
+			connected_vertices : ["V 27 (2)","V(4,3)"],
+		},
+		{
+			vertexId :"V 92 (2)",
+			connected_vertices : ["V(4,3)","V(5,2)"],
+		},
+		{
+			vertexId :"V 106",
+			connected_vertices : ["V 72 (2)","V 131"],
+		},
+		{
+			vertexId :"V 106 (2)",
+			connected_vertices : ["V 153","V 164"],
+		},
+		{
+			vertexId :"V 110",
+			connected_vertices : ["V 83","V 12 (2)"],
+		},
+		{
+			vertexId :"V 110 (2)",
+			connected_vertices : ["V 83"],
+		},
+		{
+			vertexId :"V 112",
+			connected_vertices : ["V 88"],
+		},
+		{
+			vertexId :"V 112 (2)",
+			connected_vertices : ["V 115","V 88"],
+		},
+		{
+			vertexId :"V 115",
+			connected_vertices : ["V 112 (2)","V 89"],
+		},
+		{
+			vertexId :"V 115 (2)",
+			connected_vertices : ["V 89"],
+		},
+		{
+			vertexId :"V 116 (2)",
+			connected_vertices : ["V 123 (2)","V(2,5)"],
+		},
+		{
+			vertexId :"V 117",
+			connected_vertices : ["V 27 (2)","V 135 (2)"],
+		},
+		{
+			vertexId :"V 117 (2)",
+			connected_vertices : ["V 136 (2)"],
+		},
+		{
+			vertexId :"V 123 (2)",
+			connected_vertices : ["V 116 (2)","V(3,5)"],
+		},
+		{
+			vertexId :"V 129",
+			connected_vertices : [],
+		},
+		{
+			vertexId :"V 129 (2)",
+			connected_vertices : ["V 27 (2)"],
+		},
+		{
+			vertexId :"V 130",
+			connected_vertices : ["V 155"],
+		},
+		{
+			vertexId :"V 130 (2)",
+			connected_vertices : ["V 27 (2)","V 135 (2)"],
+		},
+		{
+			vertexId :"V 131",
+			connected_vertices : ["V 73 (2)","V 106"],
+		},
+		{
+			vertexId :"V 131 (2)",
+			connected_vertices : ["V 73 (2)"],
+		},
+		{
+			vertexId :"V 135 (2)",
+			connected_vertices : ["V 117","V 130 (2)"],
+		},
+		{
+			vertexId :"V 136 (2)",
+			connected_vertices : ["V 117 (2)"],
+		},
+		{
+			vertexId :"V 141",
+			connected_vertices : [],
+		},
+		{
+			vertexId :"V 141 (2)",
+			connected_vertices : ["V 145"],
+		},
+		{
+			vertexId :"V 145",
+			connected_vertices : ["V 141 (2)"],
+		},
+		{
+			vertexId :"V 145 (2)",
+			connected_vertices : [],
+		},
+		{
+			vertexId :"V 153",
+			connected_vertices : ["V 106 (2)"],
+		},
+		{
+			vertexId :"V 154",
+			connected_vertices : [],
+		},
+		{
+			vertexId :"V 154 (2)",
+			connected_vertices : [],
+		},
+		{
+			vertexId :"V 155",
+			connected_vertices : ["V 130"],
+		},
+		{
+			vertexId :"V 155 (2)",
+			connected_vertices : [],
+		},
+		{
+			vertexId :"V 157",
+			connected_vertices : [],
+		},
+		{
+			vertexId :"V 157 (2)",
+			connected_vertices : [],
+		},
+		{
+			vertexId :"V 164",
+			connected_vertices : ["V 106 (2)"],
+		},
+		{
+			vertexId :"V 164 (2)",
+			connected_vertices : [],
+		}
+	]
+}

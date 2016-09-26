@@ -1,0 +1,3 @@
+explored subgraphes number : 4981
+found patterns total number : 81
+execution time (ms) : 360

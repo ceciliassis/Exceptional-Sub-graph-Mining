@@ -1,0 +1,5 @@
+verified characteristics number : 1924
+explored characteristics number : 721
+explored subgraphes number : 1153
+found patterns total number : 103
+execution time (ms) : 480

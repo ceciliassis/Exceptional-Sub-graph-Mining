@@ -1,0 +1,1035 @@
+{
+	"numberOfPatterns" :103,
+	"patterns" : [
+		{
+			"subgraph" : ["V 16","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Event","Nightlife Spot","Residence","Arts & Entertainment","Food"],
+				"score" : 0.011681307955090186
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Event","Nightlife Spot","Residence","Arts & Entertainment","Food"],
+				"score" : 0.011506233118909501
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Nightlife Spot","Residence","Arts & Entertainment","Food"],
+				"score" : 0.011625193336960877
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Nightlife Spot","Residence","Arts & Entertainment","Food"],
+				"score" : 0.01145011850078019
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Event","Nightlife Spot","Residence","Food"],
+				"score" : 0.011110003945095643
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Event","Nightlife Spot","Residence","Food"],
+				"score" : 0.010934929108914956
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Nightlife Spot","Residence","Food"],
+				"score" : 0.011053889326966328
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Nightlife Spot","Residence","Food"],
+				"score" : 0.010878814490785642
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Event","Nightlife Spot","Arts & Entertainment","Food"],
+				"score" : 0.013575558115129864
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Event","Nightlife Spot","Arts & Entertainment","Food"],
+				"score" : 0.013337795256444638
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Nightlife Spot","Arts & Entertainment","Food"],
+				"score" : 0.013500738624290777
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Nightlife Spot","Arts & Entertainment","Food"],
+				"score" : 0.013262975765605546
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Event","Nightlife Spot","Food"],
+				"score" : 0.012809489691359484
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Event","Nightlife Spot","Food"],
+				"score" : 0.012571726832674258
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Nightlife Spot","Food"],
+				"score" : 0.0127346702005204
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Nightlife Spot","Food"],
+				"score" : 0.012496907341835168
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Event","Residence","Arts & Entertainment","Food"],
+				"score" : 0.013279646653874329
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Event","Residence","Arts & Entertainment","Food"],
+				"score" : 0.013039852770659088
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Residence","Arts & Entertainment","Food"],
+				"score" : 0.013204827163035244
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Residence","Arts & Entertainment","Food"],
+				"score" : 0.012965033279820003
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Event","Residence","Food"],
+				"score" : 0.012601472567523518
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Event","Residence","Food"],
+				"score" : 0.01236167868430828
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Residence","Food"],
+				"score" : 0.012526653076684434
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Residence","Food"],
+				"score" : 0.012286859193469184
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Event","Arts & Entertainment","Food"],
+				"score" : 0.014544263074965732
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Event","Arts & Entertainment","Food"],
+				"score" : 0.014240759079329694
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Arts & Entertainment","Food"],
+				"score" : 0.01445073871141688
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Arts & Entertainment","Food"],
+				"score" : 0.014147234715780837
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Event","Food"],
+				"score" : 0.013681498900559275
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Event","Food"],
+				"score" : 0.01337799490492324
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Food"],
+				"score" : 0.01358797453701042
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Food"],
+				"score" : 0.01328447054137438
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Event","Nightlife Spot","Residence","Arts & Entertainment","Food"],
+				"score" : 0.010291157209811634
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Event","Nightlife Spot","Residence","Arts & Entertainment","Food"],
+				"score" : 0.010116082373630951
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Nightlife Spot","Residence","Arts & Entertainment","Food"],
+				"score" : 0.010235042591682323
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Nightlife Spot","Residence","Arts & Entertainment","Food"],
+				"score" : 0.010059967755501636
+			}
+		},
+		{
+			"subgraph" : ["V(2,7)","V 76 (2)","V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Event","Nightlife Spot","Arts & Entertainment","Food"],
+				"score" : 0.015807185039938595
+			}
+		},
+		{
+			"subgraph" : ["V(2,7)","V 76 (2)","V 16","V(0,7)","V(1,6)","V 32","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Event","Nightlife Spot","Arts & Entertainment","Food"],
+				"score" : 0.01439325316667975
+			}
+		},
+		{
+			"subgraph" : ["V(2,7)","V 76 (2)","V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Nightlife Spot","Arts & Entertainment","Food"],
+				"score" : 0.01569495580367997
+			}
+		},
+		{
+			"subgraph" : ["V(2,7)","V 76 (2)","V 16","V(0,7)","V(1,6)","V 32","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Nightlife Spot","Arts & Entertainment","Food"],
+				"score" : 0.014243614185001583
+			}
+		},
+		{
+			"subgraph" : ["V(2,7)","V 76 (2)","V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Event","Nightlife Spot","Food"],
+				"score" : 0.014741230283569468
+			}
+		},
+		{
+			"subgraph" : ["V(2,7)","V 76 (2)","V 16","V(0,7)","V(1,6)","V 32","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Event","Nightlife Spot","Food"],
+				"score" : 0.013063787289070998
+			}
+		},
+		{
+			"subgraph" : ["V(2,7)","V 76 (2)","V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Nightlife Spot","Food"],
+				"score" : 0.014629001047310838
+			}
+		},
+		{
+			"subgraph" : ["V(2,7)","V 76 (2)","V 16","V(0,7)","V(1,6)","V 32","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Nightlife Spot","Food"],
+				"score" : 0.01291414830739282
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Event","Residence","Arts & Entertainment","Food"],
+				"score" : 0.01122642033582725
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Event","Residence","Arts & Entertainment","Food"],
+				"score" : 0.010991590472154212
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Residence","Arts & Entertainment","Food"],
+				"score" : 0.011132895972278394
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Residence","Arts & Entertainment","Food"],
+				"score" : 0.010898066108605357
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Event","Residence","Food"],
+				"score" : 0.010433589906956118
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Event","Residence","Food"],
+				"score" : 0.010198760043283083
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Residence","Food"],
+				"score" : 0.01034006554340726
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Residence","Food"],
+				"score" : 0.010105235679734226
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V(2,7)","V 76 (2)","V 32","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Outdoors & Recreation","Event","Arts & Entertainment","Food"],
+				"score" : 0.01017796734481428
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V(2,7)","V 76 (2)","V 32","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Outdoors & Recreation","Arts & Entertainment","Food"],
+				"score" : 0.010065738108555652
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V(2,7)","V 76 (2)","V 16","V(0,7)","V(0,6)","V(1,6)","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Event","Arts & Entertainment","Food"],
+				"score" : 0.01564500653595897
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V(2,7)","V 76 (2)","V 16","V(0,7)","V(0,6)","V(1,6)","V 32","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Event","Arts & Entertainment","Food"],
+				"score" : 0.015270792021633922
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V(2,7)","V 76 (2)","V 16","V(0,7)","V(0,6)","V(1,6)","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Arts & Entertainment","Food"],
+				"score" : 0.015476662681571027
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V(2,7)","V 76 (2)","V 16","V(0,7)","V(0,6)","V(1,6)","V 32","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Arts & Entertainment","Food"],
+				"score" : 0.015083743294536203
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V(2,7)","V 76 (2)","V 16","V(0,7)","V(0,6)","V(1,6)","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Event","Food"],
+				"score" : 0.01417764239162273
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V(2,7)","V 76 (2)","V 16","V(0,7)","V(0,6)","V(1,6)","V 32","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Event","Food"],
+				"score" : 0.013686639236756514
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V(2,7)","V 76 (2)","V 16","V(0,7)","V(0,6)","V(1,6)","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Food"],
+				"score" : 0.014009298537234788
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V(2,7)","V 76 (2)","V 16","V(0,7)","V(0,6)","V(1,6)","V 32","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Food"],
+				"score" : 0.0134995905096588
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Event","Nightlife Spot","Residence","Arts & Entertainment"],
+				"score" : 0.010032722656118194
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Event","Nightlife Spot","Arts & Entertainment"],
+				"score" : 0.01141963816076507
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Event","Nightlife Spot","Arts & Entertainment"],
+				"score" : 0.011181875302079845
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Nightlife Spot","Arts & Entertainment"],
+				"score" : 0.011344818669925984
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Nightlife Spot","Arts & Entertainment"],
+				"score" : 0.011107055811240756
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Event","Nightlife Spot"],
+				"score" : 0.010653569736994694
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Event","Nightlife Spot"],
+				"score" : 0.010415806878309463
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Nightlife Spot"],
+				"score" : 0.010578750246155608
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Nightlife Spot"],
+				"score" : 0.01034098738747038
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Event","Residence","Arts & Entertainment"],
+				"score" : 0.011293982583387603
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Event","Residence","Arts & Entertainment"],
+				"score" : 0.01105418870017236
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Residence","Arts & Entertainment"],
+				"score" : 0.01121916309254852
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Residence","Arts & Entertainment"],
+				"score" : 0.010979369209333274
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Event","Residence"],
+				"score" : 0.010615808497036791
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Event","Residence"],
+				"score" : 0.01037601461382155
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Residence"],
+				"score" : 0.010540989006197706
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Residence"],
+				"score" : 0.010301195122982462
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Event","Arts & Entertainment"],
+				"score" : 0.01207995858743955
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Event","Arts & Entertainment"],
+				"score" : 0.011776454591803513
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Arts & Entertainment"],
+				"score" : 0.011986434223890697
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Arts & Entertainment"],
+				"score" : 0.011682930228254654
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University","Event"],
+				"score" : 0.011217194413033092
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","Event"],
+				"score" : 0.010913690417397056
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service","College & University"],
+				"score" : 0.011123670049484237
+			}
+		},
+		{
+			"subgraph" : ["V 16","V(0,7)","V(0,6)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Shop & Service"],
+				"score" : 0.010820166053848198
+			}
+		},
+		{
+			"subgraph" : ["V(2,7)","V 76 (2)","V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Event","Nightlife Spot","Arts & Entertainment"],
+				"score" : 0.01304073102438005
+			}
+		},
+		{
+			"subgraph" : ["V(2,7)","V 76 (2)","V 16","V(0,7)","V(1,6)","V 32","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Event","Nightlife Spot","Arts & Entertainment"],
+				"score" : 0.011976235207826844
+			}
+		},
+		{
+			"subgraph" : ["V(2,7)","V 76 (2)","V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Nightlife Spot","Arts & Entertainment"],
+				"score" : 0.01292850178812142
+			}
+		},
+		{
+			"subgraph" : ["V(2,7)","V 76 (2)","V 16","V(0,7)","V(1,6)","V 32","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Nightlife Spot","Arts & Entertainment"],
+				"score" : 0.011826596226148678
+			}
+		},
+		{
+			"subgraph" : ["V(2,7)","V 76 (2)","V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Event","Nightlife Spot"],
+				"score" : 0.011974776268010918
+			}
+		},
+		{
+			"subgraph" : ["V(2,7)","V 76 (2)","V 16","V(0,7)","V(1,6)","V 32","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Event","Nightlife Spot"],
+				"score" : 0.010646769330218091
+			}
+		},
+		{
+			"subgraph" : ["V(2,7)","V 76 (2)","V 16","V(0,7)","V(1,6)","V 76"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Nightlife Spot"],
+				"score" : 0.011862547031752293
+			}
+		},
+		{
+			"subgraph" : ["V(2,7)","V 76 (2)","V 16","V(0,7)","V(1,6)","V 32","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Nightlife Spot"],
+				"score" : 0.010497130348539916
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V 20 (2)","V(2,7)","V 76 (2)","V 16","V(0,7)","V(2,4)","V(0,6)","V(1,6)","V(2,5)","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Event","Arts & Entertainment"],
+				"score" : 0.011854309510705196
+			}
+		},
+		{
+			"subgraph" : ["V 76 (2)","V 16","V(1,4)","V(0,7)","V(2,4)","V(0,6)","V(1,6)","V(2,5)","V 32","V 76","V 31","V(2,6)","V 20 (2)","V(2,7)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Event","Arts & Entertainment"],
+				"score" : 0.012079260409793968
+			}
+		},
+		{
+			"subgraph" : ["V 76 (2)","V 16","V(1,3)","V(0,7)","V(2,4)","V(0,6)","V(1,6)","V(2,5)","V 76","V 20","V 31","V 79 (2)","V(2,6)","V 20 (2)","V(2,7)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Arts & Entertainment"],
+				"score" : 0.012105690343983401
+			}
+		},
+		{
+			"subgraph" : ["V 76 (2)","V 16","V(1,3)","V(1,4)","V(0,7)","V(2,4)","V(0,6)","V(1,6)","V(2,5)","V 32","V 76","V 20","V 31","V 79 (2)","V(2,6)","V 20 (2)","V(2,7)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Arts & Entertainment"],
+				"score" : 0.012225357340458263
+			}
+		},
+		{
+			"subgraph" : ["V(2,6)","V 20 (2)","V(2,7)","V 76 (2)","V 16","V(0,7)","V(2,4)","V(0,6)","V(1,6)","V(2,5)","V 76","V 31"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University","Event"],
+				"score" : 0.01017163450277446
+			}
+		},
+		{
+			"subgraph" : ["V 76 (2)","V 16","V(1,4)","V(0,7)","V(2,4)","V(0,6)","V(1,6)","V(2,5)","V 32","V 76","V 31","V(2,6)","V 20 (2)","V(2,7)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["Event"],
+				"score" : 0.010107089236954333
+			}
+		},
+		{
+			"subgraph" : ["V 76 (2)","V 16","V(1,3)","V(0,7)","V(2,4)","V(0,6)","V(1,6)","V(2,5)","V 76","V 20","V 31","V 79 (2)","V(2,6)","V 20 (2)","V(2,7)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : ["College & University"],
+				"score" : 0.010069633902624615
+			}
+		},
+		{
+			"subgraph" : ["V 76 (2)","V 16","V(1,3)","V(1,4)","V(0,7)","V(2,4)","V(0,6)","V(1,6)","V(2,5)","V 32","V 76","V 20","V 31","V 79 (2)","V(2,6)","V(2,7)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Travel & Transport"],
+				"negativeAttributes" : [],
+				"score" : 0.010117736391479285
+			}
+		}
+	]
+}

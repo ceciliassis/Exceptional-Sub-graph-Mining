@@ -1,0 +1,815 @@
+{
+	"numberOfPatterns" :81,
+	"patterns" : [
+		{
+			"subgraph" : ["V 188 (2)","V 184","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Southern / Soul Food Restaurant","States & Municipalities","Deli / Bodega","Residential Building (Apartment / Condo)","Garden","Non-Profit","Laundry Service","Fried Chicken Joint","Spiritual Center","Home (private)","Bank","Post Office","Drugstore / Pharmacy","Burger Joint","School","Other Event","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.005422943448888353
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 184","V 124 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Southern / Soul Food Restaurant","Spiritual Center","Home (private)","Post Office","Salon / Barbershop","Financial or Legal Service","Deli / Bodega","Residential Building (Apartment / Condo)","Non-Profit","Burger Joint","Laundry Service","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.005332727252848595
+			}
+		},
+		{
+			"subgraph" : ["V 52","V 129 (2)","V 184","V 124 (2)","V 52 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Post Office","Residential Building (Apartment / Condo)","Non-Profit","Burger Joint","Laundry Service","Metro Station","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.005492596236616671
+			}
+		},
+		{
+			"subgraph" : ["V 52","V 188 (2)","V 123","V 129 (2)","V 60 (2)","V 184","V 124 (2)","V 52 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Residential Building (Apartment / Condo)","Burger Joint","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.005542199075679709
+			}
+		},
+		{
+			"subgraph" : ["V 123","V 184","V 124 (2)","V 188","V 184 (2)","V 252 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Southern / Soul Food Restaurant","Historic Site","Deli / Bodega","Residential Building (Apartment / Condo)","Metro Station","College Library"],
+				"negativeAttributes" : [],
+				"score" : 0.0051738699050915575
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 129","V 129 (2)","V 60 (2)","V 124 (2)","V 52 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office","Residential Building (Apartment / Condo)","Fast Food Restaurant","Burger Joint","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.0070049608693209375
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 129 (2)","V 184","V 124 (2)","V 52 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office","Salon / Barbershop","Deli / Bodega","Residential Building (Apartment / Condo)","Non-Profit","Burger Joint","Laundry Service","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.006506954024279594
+			}
+		},
+		{
+			"subgraph" : ["V 314 (2)","V 123","V 117","V 183","V 124 (2)","V 188","V 252 (2)","V 42 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.005103409463010525
+			}
+		},
+		{
+			"subgraph" : ["V 123","V 129 (2)","V 124 (2)","V 52 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Playground","Deli / Bodega","Residential Building (Apartment / Condo)","BBQ Joint","Latin American Restaurant","Burger Joint","Metro Station","Spanish Restaurant","Library","College Academic Building"],
+				"negativeAttributes" : [],
+				"score" : 0.005033116242959564
+			}
+		},
+		{
+			"subgraph" : ["V(7,2)","V 188 (2)","V(7,1)","V 124","V 129 (2)","V 184","V 124 (2)","V 52 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Home (private)","Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.005850623716576007
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 182 (2)","V 184","V 124 (2)","V 318","V 389 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Home (private)"],
+				"negativeAttributes" : [],
+				"score" : 0.005380710801636833
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 184","V 124 (2)","V 52 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office","Salon / Barbershop","Deli / Bodega","Residential Building (Apartment / Condo)","Non-Profit","Burger Joint","Laundry Service","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.005403327125441472
+			}
+		},
+		{
+			"subgraph" : ["V(6,4)","V 188 (2)","V 54 (2)","V 184","V 124 (2)","V 52 (2)","V 188","V 131"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Post Office","Salon / Barbershop","Laundry Service","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.005485148570052818
+			}
+		},
+		{
+			"subgraph" : ["V(7,2)","V(7,1)","V 123","V 129 (2)","V 60 (2)","V 183","V 124 (2)","V 52 (2)","V 188","V 252 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.0050678416510560875
+			}
+		},
+		{
+			"subgraph" : ["V 52","V(6,4)","V(7,2)","V 188 (2)","V 54 (2)","V 129 (2)","V(7,5)","V 60 (2)","V 124 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Post Office","Fast Food Restaurant"],
+				"negativeAttributes" : [],
+				"score" : 0.00580611882864233
+			}
+		},
+		{
+			"subgraph" : ["V 129 (2)","V 124 (2)","V 52 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Salon / Barbershop","Deli / Bodega","Residential Building (Apartment / Condo)","Fast Food Restaurant","Caribbean Restaurant","Latin American Restaurant","Non-Profit","Laundry Service","Spanish Restaurant","College Academic Building","Spiritual Center","Home (private)","Post Office","Playground","BBQ Joint","Burger Joint","Metro Station","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.005564087240922441
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 129","V 124 (2)","V 52 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office","Residential Building (Apartment / Condo)","Fast Food Restaurant","Burger Joint","Laundry Service","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.0057721972121148254
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 184","V 124 (2)","V 52 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office","Deli / Bodega","Residential Building (Apartment / Condo)","Non-Profit","Burger Joint","Laundry Service","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.005747999830977503
+			}
+		},
+		{
+			"subgraph" : ["V(6,4)","V(7,2)","V 188 (2)","V(7,1)","V 129","V 129 (2)","V 124 (2)","V 52 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office","Fast Food Restaurant"],
+				"negativeAttributes" : [],
+				"score" : 0.005922493489888172
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 124 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Southern / Soul Food Restaurant","Deli / Bodega","Residential Building (Apartment / Condo)","Fast Food Restaurant","Non-Profit","Laundry Service","Department Store","Spiritual Center","Home (private)","Post Office","Dog Run","Burger Joint","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.005075640211101514
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 54 (2)","V 177 (2)","V 60 (2)","V 52 (2)","V 188","V 131","V 54","V(6,4)","V(7,2)","V(5,6)","V 129 (2)","V(7,5)","V(6,6)","V 124 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Fast Food Restaurant"],
+				"negativeAttributes" : [],
+				"score" : 0.006689055525061603
+			}
+		},
+		{
+			"subgraph" : ["V(6,4)","V 129","V 129 (2)","V 131 (2)","V 124 (2)","V 52 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Home (private)","Post Office","Playground","Fast Food Restaurant"],
+				"negativeAttributes" : [],
+				"score" : 0.006108813397914213
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 182 (2)","V 184","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Fried Chicken Joint","Home (private)","Drugstore / Pharmacy","Deli / Bodega","Residential Building (Apartment / Condo)","Burger Joint","School","Other Event"],
+				"negativeAttributes" : [],
+				"score" : 0.005786453115720942
+			}
+		},
+		{
+			"subgraph" : ["V 104 (2)","V 182 (2)","V 184","V 124 (2)","V 52 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Home (private)","Deli / Bodega","Housing Development","Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.0062425692580601365
+			}
+		},
+		{
+			"subgraph" : ["V 52","V 188 (2)","V 314 (2)","V 123","V 129","V 60 (2)","V 314","V 184","V 183","V 52 (2)","V 188","V 184 (2)","V 318 (2)","V(7,0)","V(7,2)","V(7,1)","V 129 (2)","V 61 (2)","V 124 (2)","V 181 (2)","V 318","V 42 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.007805697393270461
+			}
+		},
+		{
+			"subgraph" : ["V 123","V 117","V 183","V 188","V 252","V 42 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Park","Athletics & Sports","Residential Building (Apartment / Condo)","Latin American Restaurant"],
+				"negativeAttributes" : [],
+				"score" : 0.005140599396957278
+			}
+		},
+		{
+			"subgraph" : ["V 54 (2)","V 124","V 129","V 117","V 231 (2)","V 184","V 183","V 389 (2)","V 52 (2)","V 188","V 184 (2)","V(6,4)","V(7,2)","V 182 (2)","V 129 (2)","V 33 (2)","V 124 (2)","V 161 (2)","V 318","V 42 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Home (private)"],
+				"negativeAttributes" : [],
+				"score" : 0.010328218208350566
+			}
+		},
+		{
+			"subgraph" : ["V 124","V 123","V 182 (2)","V 184","V 124 (2)","V 52 (2)","V 188","V 318 (2)","V 252","V 252 (2)","V 42 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Playground","Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.005738911535890213
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 129","V 129 (2)","V 184","V 183","V 124 (2)","V 52 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office","Residential Building (Apartment / Condo)","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.006315428100356706
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 60 (2)","V 184","V 389 (2)","V 52 (2)","V 188","V 318 (2)","V(6,4)","V(7,2)","V 61 (2)","V 124 (2)","V 317 (2)","V 318"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Salon / Barbershop"],
+				"negativeAttributes" : [],
+				"score" : 0.005022455448959902
+			}
+		},
+		{
+			"subgraph" : ["V(7,2)","V 188 (2)","V 60 (2)","V 184","V 124 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office","Salon / Barbershop","Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.005055213446983106
+			}
+		},
+		{
+			"subgraph" : ["V 129 (2)","V 124 (2)","V 52 (2)","V 188","V 131"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Salon / Barbershop","Deli / Bodega","Residential Building (Apartment / Condo)","Fast Food Restaurant","Caribbean Restaurant","Latin American Restaurant","Non-Profit","Laundry Service","Spanish Restaurant","College Academic Building","Spiritual Center","Post Office","BBQ Joint","Burger Joint","Metro Station","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.0057364321605478325
+			}
+		},
+		{
+			"subgraph" : ["V(7,2)","V 188 (2)","V(7,1)","V 124","V 60 (2)","V 184","V 124 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Home (private)","Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.0051645385918817795
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 124","V 129 (2)","V 124 (2)","V 52 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Home (private)","Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.0050968803201086954
+			}
+		},
+		{
+			"subgraph" : ["V 129","V 184","V 183","V 124 (2)","V 318","V 52 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office","Residential Building (Apartment / Condo)","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.005417536487214668
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 54 (2)","V 104 (2)","V 124","V 129","V 219 (2)","V 117","V 173","V 184","V 183","V 52 (2)","V 188","V 121","V 184 (2)","V(6,1)","V(6,4)","V(7,1)","V 103 (2)","V 182 (2)","V 129 (2)","V 131 (2)","V 124 (2)","V 318","V 42 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Home (private)"],
+				"negativeAttributes" : [],
+				"score" : 0.010452282797277682
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 184","V 124 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Southern / Soul Food Restaurant","Spiritual Center","Home (private)","Post Office","Deli / Bodega","Residential Building (Apartment / Condo)","Non-Profit","Burger Joint","Laundry Service","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.005844191273505629
+			}
+		},
+		{
+			"subgraph" : ["V(7,2)","V 188 (2)","V 129","V 124 (2)","V 52 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office","Salon / Barbershop","Residential Building (Apartment / Condo)","Fast Food Restaurant","BBQ Joint"],
+				"negativeAttributes" : [],
+				"score" : 0.0051286247180776
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 184","V 183","V 124 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office","Residential Building (Apartment / Condo)","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.005487035613236015
+			}
+		},
+		{
+			"subgraph" : ["V 52","V(6,4)","V 188 (2)","V 123","V 188","V 252","V 54","V 252 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Southern / Soul Food Restaurant","Fried Chicken Joint","States & Municipalities","College Academic Building"],
+				"negativeAttributes" : [],
+				"score" : 0.0050432554905600144
+			}
+		},
+		{
+			"subgraph" : ["V(7,2)","V 188 (2)","V 129","V 129 (2)","V 184","V 124 (2)","V 318","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office","Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.00602681397157183
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 123","V 184","V 124 (2)","V 188","V 184 (2)","V 252 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Southern / Soul Food Restaurant","Deli / Bodega","Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.0056220985685265425
+			}
+		},
+		{
+			"subgraph" : ["V 123","V 252","V 252 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Café","Southern / Soul Food Restaurant","Park","Bus Station","Indian Restaurant","Juice Bar","States & Municipalities","College Auditorium","Deli / Bodega","Residential Building (Apartment / Condo)","College Administrative Building","Food & Drink Shop","College Cafeteria","College Academic Building","General College & University","Fried Chicken Joint","Historic Site","Restaurant","Playground","African Restaurant","College Residence Hall","College Library"],
+				"negativeAttributes" : [],
+				"score" : 0.005330578445857842
+			}
+		},
+		{
+			"subgraph" : ["V(7,2)","V 188 (2)","V(7,1)","V 124","V 184","V 124 (2)","V 52 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Home (private)","Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.005193061911255559
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 129","V 184","V 183","V 124 (2)","V 318","V 389 (2)","V 52 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office"],
+				"negativeAttributes" : [],
+				"score" : 0.006123569623517727
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 182 (2)","V 184","V 124 (2)","V 318","V 188","V 121","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Home (private)","Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.005601515537718533
+			}
+		},
+		{
+			"subgraph" : ["V 52","V 188 (2)","V 104 (2)","V 124","V 123","V 184","V 183","V 156 (2)","V 188","V 184 (2)","V 103 (2)","V 182 (2)","V 124 (2)","V 318","V 44 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.005166374781537015
+			}
+		},
+		{
+			"subgraph" : ["V(6,4)","V 188 (2)","V 124","V 129","V 184","V 183","V 124 (2)","V 52 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Home (private)"],
+				"negativeAttributes" : [],
+				"score" : 0.005382782205497202
+			}
+		},
+		{
+			"subgraph" : ["V 52","V 188 (2)","V 129","V 60 (2)","V 184","V 183","V 52 (2)","V 188","V(7,2)","V(7,1)","V 124 (2)","V 318","V 252 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.005358603418115761
+			}
+		},
+		{
+			"subgraph" : ["V 52","V 129","V 129 (2)","V 60 (2)","V 124 (2)","V 52 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Post Office","Playground","Residential Building (Apartment / Condo)","Fast Food Restaurant","Burger Joint","Metro Station","Spanish Restaurant","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.005840677584745522
+			}
+		},
+		{
+			"subgraph" : ["V(7,2)","V 188 (2)","V(7,1)","V 124","V 182 (2)","V 129","V 60 (2)","V 124 (2)","V 52 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Home (private)","Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.006427880577303665
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 129","V 173","V 184","V 52 (2)","V 188","V 121","V 184 (2)","V(6,4)","V 182 (2)","V 129 (2)","V 131 (2)","V 124 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Home (private)"],
+				"negativeAttributes" : [],
+				"score" : 0.008033501216187301
+			}
+		},
+		{
+			"subgraph" : ["V(7,2)","V 188 (2)","V 129","V 184","V 124 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office","Salon / Barbershop","Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.005518759154315579
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 104 (2)","V 124","V 129","V 60 (2)","V 188","V 184 (2)","V(7,2)","V(7,1)","V 103 (2)","V 182 (2)","V 61 (2)","V 124 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Home (private)","Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.006427307325645722
+			}
+		},
+		{
+			"subgraph" : ["V 52","V 188 (2)","V 182 (2)","V 184","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Fried Chicken Joint","Drugstore / Pharmacy","Residential Building (Apartment / Condo)","Burger Joint","School","Other Event"],
+				"negativeAttributes" : [],
+				"score" : 0.005111461855761937
+			}
+		},
+		{
+			"subgraph" : ["V 123","V 129 (2)","V 124 (2)","V 52 (2)","V 188","V 131"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Deli / Bodega","Residential Building (Apartment / Condo)","BBQ Joint","Latin American Restaurant","Burger Joint","Metro Station","Spanish Restaurant","Library","College Academic Building"],
+				"negativeAttributes" : [],
+				"score" : 0.005571345426007258
+			}
+		},
+		{
+			"subgraph" : ["V(7,2)","V 188 (2)","V 129 (2)","V 60 (2)","V 61 (2)","V 124 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office","Residential Building (Apartment / Condo)","Fast Food Restaurant"],
+				"negativeAttributes" : [],
+				"score" : 0.006455545280468831
+			}
+		},
+		{
+			"subgraph" : ["V 52","V 188 (2)","V 184","V 124 (2)","V 188","V 184 (2)","V 252 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Southern / Soul Food Restaurant","Spiritual Center","Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.0052435365782447455
+			}
+		},
+		{
+			"subgraph" : ["V(7,2)","V 188 (2)","V 184","V 124 (2)","V 318","V 389 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office"],
+				"negativeAttributes" : [],
+				"score" : 0.005279152815314068
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 123","V 182 (2)","V 184","V 124 (2)","V 52 (2)","V 188","V 184 (2)","V 318 (2)","V 252","V 252 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Deli / Bodega","Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.005468092936433567
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 104 (2)","V 182 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Home (private)","Deli / Bodega","Residential Building (Apartment / Condo)","Dog Run","School","Other Event"],
+				"negativeAttributes" : [],
+				"score" : 0.005638634316172789
+			}
+		},
+		{
+			"subgraph" : ["V(7,2)","V 129","V 129 (2)","V 60 (2)","V 61 (2)","V 124 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office","Salon / Barbershop","Residential Building (Apartment / Condo)","Fast Food Restaurant","Latin American Restaurant","Metro Station","Spanish Restaurant"],
+				"negativeAttributes" : [],
+				"score" : 0.007053595565784081
+			}
+		},
+		{
+			"subgraph" : ["V 129","V 129 (2)","V 124 (2)","V 52 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Salon / Barbershop","Residential Building (Apartment / Condo)","Fast Food Restaurant","Caribbean Restaurant","Latin American Restaurant","Laundry Service","Spanish Restaurant","Spiritual Center","Home (private)","Post Office","Playground","BBQ Joint","Burger Joint","Metro Station","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.006255897864838639
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 184","V 183","V 124 (2)","V 188","V 42 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Residential Building (Apartment / Condo)","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.0053853381978641365
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 104 (2)","V 182 (2)","V 184","V 318","V 389 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Home (private)"],
+				"negativeAttributes" : [],
+				"score" : 0.005459365371042609
+			}
+		},
+		{
+			"subgraph" : ["V 52","V 188 (2)","V 124 (2)","V 188","V 184 (2)","V 44 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Post Office","Residential Building (Apartment / Condo)","Fast Food Restaurant","Non-Profit","Laundry Service","Department Store"],
+				"negativeAttributes" : [],
+				"score" : 0.00513173680935181
+			}
+		},
+		{
+			"subgraph" : ["V 52","V 188 (2)","V 123","V 129","V 184","V 183","V 52 (2)","V 188","V 184 (2)","V 252","V 181 (2)","V 44 (2)","V 42 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.0050597910022022055
+			}
+		},
+		{
+			"subgraph" : ["V 52","V 188 (2)","V 124","V 123","V 129 (2)","V 61 (2)","V 124 (2)","V 52 (2)","V 188","V 184 (2)","V 44 (2)","V 131"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.005313141386070581
+			}
+		},
+		{
+			"subgraph" : ["V 123","V 129 (2)","V 124 (2)","V 52 (2)","V 188","V 252 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Playground","Deli / Bodega","Residential Building (Apartment / Condo)","Metro Station","College Academic Building"],
+				"negativeAttributes" : [],
+				"score" : 0.005240819625737967
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 182 (2)","V 184","V 183","V 124 (2)","V 318","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Home (private)","Residential Building (Apartment / Condo)"],
+				"negativeAttributes" : [],
+				"score" : 0.005597697248349877
+			}
+		},
+		{
+			"subgraph" : ["V(7,2)","V 129","V 60 (2)","V 184","V 124 (2)","V 52 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office","Salon / Barbershop","Residential Building (Apartment / Condo)","Metro Station"],
+				"negativeAttributes" : [],
+				"score" : 0.005323695404464299
+			}
+		},
+		{
+			"subgraph" : ["V(7,2)","V 188 (2)","V 129","V 129 (2)","V 60 (2)","V 184","V 124 (2)","V 318","V 389 (2)","V 52 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office","Salon / Barbershop"],
+				"negativeAttributes" : [],
+				"score" : 0.007130400952814729
+			}
+		},
+		{
+			"subgraph" : ["V(6,4)","V 188 (2)","V 54 (2)","V 124 (2)","V 52 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Home (private)","Post Office","Fast Food Restaurant","Laundry Service","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.005798960804124927
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 129 (2)","V 124 (2)","V 52 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Salon / Barbershop","Deli / Bodega","Residential Building (Apartment / Condo)","Fast Food Restaurant","Caribbean Restaurant","Non-Profit","Laundry Service","College Academic Building","Spiritual Center","Home (private)","Post Office","BBQ Joint","Burger Joint","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.006193155351745032
+			}
+		},
+		{
+			"subgraph" : ["V 52","V 188 (2)","V 123","V 182 (2)","V 184","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Fried Chicken Joint","Residential Building (Apartment / Condo)","Burger Joint","School"],
+				"negativeAttributes" : [],
+				"score" : 0.0052893974783914935
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 182 (2)","V 124 (2)","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Home (private)","Deli / Bodega","Residential Building (Apartment / Condo)","Dog Run","Burger Joint"],
+				"negativeAttributes" : [],
+				"score" : 0.005392151594470721
+			}
+		},
+		{
+			"subgraph" : ["V 52","V 188 (2)","V 188","V 184 (2)","V 44 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Spiritual Center","Post Office","Moving Target","Residential Building (Apartment / Condo)","Fast Food Restaurant","Garden","Non-Profit","Laundry Service","Department Store","School"],
+				"negativeAttributes" : [],
+				"score" : 0.005016258186591613
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 184","V 183","V 188","V 184 (2)","V 252"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Fried Chicken Joint","Spiritual Center","Bank","Post Office","States & Municipalities","Drugstore / Pharmacy","Residential Building (Apartment / Condo)","School","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.005022133863048721
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 123","V 129 (2)","V 60 (2)","V 124 (2)","V 52 (2)","V 188"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Deli / Bodega","Residential Building (Apartment / Condo)","Burger Joint","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.00510718396116794
+			}
+		},
+		{
+			"subgraph" : ["V 188 (2)","V 123","V 184","V 188","V 184 (2)","V 252 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Southern / Soul Food Restaurant","Fried Chicken Joint","States & Municipalities","Deli / Bodega","Residential Building (Apartment / Condo)","Garden"],
+				"negativeAttributes" : [],
+				"score" : 0.005322325941225894
+			}
+		},
+		{
+			"subgraph" : ["V 52","V 188 (2)","V 123","V 184","V 188","V 184 (2)"],
+			"characteristic" : 
+			{
+				"descriptorName" : "SanFransiscoCrimes",
+				"positiveAttributes" : ["Southern / Soul Food Restaurant","Fried Chicken Joint","States & Municipalities","Residential Building (Apartment / Condo)","Garden","Burger Joint","School","Library"],
+				"negativeAttributes" : [],
+				"score" : 0.005247506895090847
+			}
+		}
+	]
+}
