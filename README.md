@@ -5,4 +5,4 @@ This repository provides the code and the data used in the paper **Unsupervised 
 All the source codes are implemented in Java.
 
 ## References
-- Anes Bendimerad, Marc Plantevit, Céline Robardet. Unsupervised Exceptional Attributed Sub-graph Mining in Urban Data. In ICDM 2016.
+- Anes Bendimerad, Marc Plantevit, Céline Robardet. Unsupervised Exceptional Attributed Sub-graph Mining in Urban Data. ICDM 2016.
