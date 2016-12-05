@@ -2155,1279 +2155,1279 @@
 		},
 		{
 			vertexId :"V 3",
-			connected_vertices : ["V(0,1)","V 11"],
+			connected_vertices : ["V 3 (2)","V(0,1)","V 11"],
 		},
 		{
 			vertexId :"V 3 (2)",
-			connected_vertices : ["V 11 (2)","V 4","V 68"],
+			connected_vertices : ["V 11 (2)","V 3","V 4","V 68"],
 		},
 		{
 			vertexId :"V 4",
-			connected_vertices : ["V 3 (2)","V 5"],
+			connected_vertices : ["V 3 (2)","V 5","V 68","V 68 (2)"],
 		},
 		{
 			vertexId :"V 5",
-			connected_vertices : ["V 71","V 4"],
+			connected_vertices : ["V 71","V 5 (2)","V 4"],
 		},
 		{
 			vertexId :"V 5 (2)",
-			connected_vertices : ["V 6 (2)","V 153 (2)","V 68 (2)","V 153","V 81 (2)"],
+			connected_vertices : ["V 6 (2)","V 153 (2)","V 5","V 68 (2)","V 153","V 81 (2)"],
 		},
 		{
 			vertexId :"V 6 (2)",
-			connected_vertices : ["V 5 (2)","V 14","V 7"],
+			connected_vertices : ["V 71","V 5 (2)","V 14","V 71 (2)","V 7"],
 		},
 		{
 			vertexId :"V 7",
-			connected_vertices : ["V 6 (2)","V 85","V 71 (2)"],
+			connected_vertices : ["V 6 (2)","V 85","V 7 (2)","V 71 (2)"],
 		},
 		{
 			vertexId :"V 7 (2)",
-			connected_vertices : ["V(0,7)","V 86"],
+			connected_vertices : ["V(0,7)","V 7","V 86"],
 		},
 		{
 			vertexId :"V 10",
-			connected_vertices : ["V(0,1)","V(1,0)","V 11"],
+			connected_vertices : ["V 10 (2)","V(0,1)","V(1,0)","V 11"],
 		},
 		{
 			vertexId :"V 10 (2)",
-			connected_vertices : ["V 18","V(1,0)","V 11"],
+			connected_vertices : ["V 18","V(1,0)","V 11","V 10"],
 		},
 		{
 			vertexId :"V 11",
-			connected_vertices : ["V 10 (2)","V 19","V 3","V 10"],
+			connected_vertices : ["V 11 (2)","V 10 (2)","V 19","V 3","V 10"],
 		},
 		{
 			vertexId :"V 11 (2)",
-			connected_vertices : ["V 12 (2)","V 3 (2)","V 79","V 19 (2)"],
+			connected_vertices : ["V 12 (2)","V 3 (2)","V 79","V 11","V 19 (2)"],
 		},
 		{
 			vertexId :"V 12 (2)",
-			connected_vertices : ["V 11 (2)","V 82","V(2,3)"],
+			connected_vertices : ["V 11 (2)","V 79 (2)","V 82","V(2,3)","V 79"],
 		},
 		{
 			vertexId :"V 14",
-			connected_vertices : ["V 6 (2)","V 85","V 81 (2)"],
+			connected_vertices : ["V 6 (2)","V 85","V 84","V 84 (2)","V 81 (2)"],
 		},
 		{
 			vertexId :"V 16",
-			connected_vertices : ["V(0,7)","V 86"],
+			connected_vertices : ["V(0,7)","V 16 (2)","V 86"],
 		},
 		{
 			vertexId :"V 16 (2)",
-			connected_vertices : ["V(2,7)","V 162 (2)"],
+			connected_vertices : ["V(2,7)","V 16","V 162 (2)"],
 		},
 		{
 			vertexId :"V 18",
-			connected_vertices : ["V 10 (2)","V 19","V(2,0)"],
+			connected_vertices : ["V 10 (2)","V 19","V(2,0)","V 18 (2)"],
 		},
 		{
 			vertexId :"V 18 (2)",
-			connected_vertices : ["V 19","V 26","V(2,0)"],
+			connected_vertices : ["V 19","V 18","V 26","V(2,0)"],
 		},
 		{
 			vertexId :"V 19",
-			connected_vertices : ["V 18","V 27","V 11","V 18 (2)"],
+			connected_vertices : ["V 18","V 27","V 11","V 19 (2)","V 18 (2)"],
 		},
 		{
 			vertexId :"V 19 (2)",
-			connected_vertices : ["V 11 (2)","V(2,3)","V 27 (2)"],
+			connected_vertices : ["V 11 (2)","V 19","V(2,3)","V 27 (2)"],
 		},
 		{
 			vertexId :"V 23",
-			connected_vertices : ["V 85 (2)","V 111","V 96 (2)","V 95 (2)"],
+			connected_vertices : ["V 85 (2)","V 171","V 111","V 98 (2)","V 96 (2)","V 95 (2)"],
 		},
 		{
 			vertexId :"V 25",
-			connected_vertices : ["V 26","V(2,0)"],
+			connected_vertices : ["V 25 (2)","V 26","V(2,0)"],
 		},
 		{
 			vertexId :"V 25 (2)",
-			connected_vertices : ["V 26 (2)","V(4,0)"],
+			connected_vertices : ["V 25","V 26 (2)","V(4,0)"],
 		},
 		{
 			vertexId :"V 26",
-			connected_vertices : ["V 27","V 25","V 18 (2)"],
+			connected_vertices : ["V 27","V 25","V 26 (2)","V 18 (2)"],
 		},
 		{
 			vertexId :"V 26 (2)",
-			connected_vertices : ["V 25 (2)","V 27","V 34"],
+			connected_vertices : ["V 25 (2)","V 27","V 26","V 34"],
 		},
 		{
 			vertexId :"V 27",
-			connected_vertices : ["V 19","V 26","V 26 (2)","V 35"],
+			connected_vertices : ["V 19","V 26","V 27 (2)","V 26 (2)","V 35"],
 		},
 		{
 			vertexId :"V 27 (2)",
-			connected_vertices : ["V 28","V 28 (2)","V 19 (2)","V 185 (2)","V 185"],
+			connected_vertices : ["V 28","V 27","V 28 (2)","V 19 (2)","V 185 (2)","V 185"],
 		},
 		{
 			vertexId :"V 28",
-			connected_vertices : ["V 107","V(2,3)","V 27 (2)"],
+			connected_vertices : ["V 107","V(2,3)","V 27 (2)","V 28 (2)"],
 		},
 		{
 			vertexId :"V 28 (2)",
-			connected_vertices : ["V 188 (2)","V 349 (2)","V 266","V 349","V 27 (2)","V 188","V 187","V 175"],
+			connected_vertices : ["V 188 (2)","V 349 (2)","V 266","V 349","V 28","V 27 (2)","V 188","V 187","V 175"],
 		},
 		{
 			vertexId :"V 34",
-			connected_vertices : ["V 26 (2)","V 35","V(4,0)"],
+			connected_vertices : ["V 34 (2)","V 26 (2)","V 35","V(4,0)"],
 		},
 		{
 			vertexId :"V 34 (2)",
-			connected_vertices : ["V 125","V 204","V 35","V(4,0)"],
+			connected_vertices : ["V 125","V 204","V 35","V 34","V(4,0)"],
 		},
 		{
 			vertexId :"V 35",
-			connected_vertices : ["V 34 (2)","V 127","V 27","V 34"],
+			connected_vertices : ["V 116 (2)","V 34 (2)","V 127","V 27","V 34","V 185"],
 		},
 		{
 			vertexId :"V 42 (2)",
-			connected_vertices : ["V 127 (2)","V(6,1)","V(5,0)"],
+			connected_vertices : ["V 125","V 204 (2)","V 127 (2)","V(6,1)","V(5,0)"],
 		},
 		{
 			vertexId :"V 52",
-			connected_vertices : ["V(6,2)","V 212","V 227","V 130","V 212 (2)"],
+			connected_vertices : ["V(6,2)","V 212","V 227","V 138","V 226","V 130","V 212 (2)"],
 		},
 		{
 			vertexId :"V 55 (2)",
-			connected_vertices : ["V 319 (2)","V 224 (2)","V(7,6)","V(6,7)"],
+			connected_vertices : ["V 319 (2)","V 224 (2)","V 528 (2)","V(7,6)","V 340 (2)","V(6,7)","V 143 (2)","V 439"],
 		},
 		{
 			vertexId :"V 62 (2)",
-			connected_vertices : ["V(7,4)","V(7,6)"],
+			connected_vertices : ["V(7,4)","V(7,6)","V 238 (2)","V 237 (2)"],
 		},
 		{
 			vertexId :"V 68",
-			connected_vertices : ["V 3 (2)","V 79"],
+			connected_vertices : ["V 3 (2)","V 4","V 79","V 68 (2)"],
 		},
 		{
 			vertexId :"V 68 (2)",
-			connected_vertices : ["V 79 (2)","V 5 (2)"],
+			connected_vertices : ["V 79 (2)","V 5 (2)","V 4","V 68"],
 		},
 		{
 			vertexId :"V 71",
-			connected_vertices : ["V 5"],
+			connected_vertices : ["V 6 (2)","V 5","V 71 (2)"],
 		},
 		{
 			vertexId :"V 71 (2)",
-			connected_vertices : ["V 7"],
+			connected_vertices : ["V 6 (2)","V 71","V 7"],
 		},
 		{
 			vertexId :"V 79",
-			connected_vertices : ["V 11 (2)","V 68"],
+			connected_vertices : ["V 11 (2)","V 79 (2)","V 12 (2)","V 68"],
 		},
 		{
 			vertexId :"V 79 (2)",
-			connected_vertices : ["V 68 (2)","V 153"],
+			connected_vertices : ["V 12 (2)","V 79","V 68 (2)","V 153"],
 		},
 		{
 			vertexId :"V 81 (2)",
-			connected_vertices : ["V 5 (2)","V 14"],
+			connected_vertices : ["V 153 (2)","V 5 (2)","V 82 (2)","V 14"],
 		},
 		{
 			vertexId :"V 82",
-			connected_vertices : ["V 12 (2)","V 93"],
+			connected_vertices : ["V 12 (2)","V 93","V 153 (2)","V 82 (2)","V 153"],
 		},
 		{
 			vertexId :"V 82 (2)",
-			connected_vertices : ["V 84","V 93 (2)"],
+			connected_vertices : ["V 84","V 82","V 93 (2)","V 81 (2)"],
 		},
 		{
 			vertexId :"V 84",
-			connected_vertices : ["V 95","V 82 (2)"],
+			connected_vertices : ["V 95","V 84 (2)","V 82 (2)","V 14"],
 		},
 		{
 			vertexId :"V 84 (2)",
-			connected_vertices : ["V 85 (2)","V 95 (2)"],
+			connected_vertices : ["V 84","V 85 (2)","V 14","V 95 (2)"],
 		},
 		{
 			vertexId :"V 85",
-			connected_vertices : ["V 14","V 7"],
+			connected_vertices : ["V 85 (2)","V 14","V 7","V 86"],
 		},
 		{
 			vertexId :"V 85 (2)",
-			connected_vertices : ["V 84 (2)","V 23"],
+			connected_vertices : ["V 85","V 84 (2)","V 23","V 241 (2)","V 241"],
 		},
 		{
 			vertexId :"V 86",
-			connected_vertices : ["V 7 (2)","V 16"],
+			connected_vertices : ["V 85","V 7 (2)","V 16","V 162 (2)","V 241"],
 		},
 		{
 			vertexId :"V 93",
-			connected_vertices : ["V 82","V(2,3)"],
+			connected_vertices : ["V 94","V 82","V(2,3)","V 93 (2)"],
 		},
 		{
 			vertexId :"V 93 (2)",
-			connected_vertices : ["V 95","V 82 (2)"],
+			connected_vertices : ["V 95","V 93","V 166 (2)","V 82 (2)","V 166"],
 		},
 		{
 			vertexId :"V 94",
-			connected_vertices : ["V 107","V(2,3)"],
+			connected_vertices : ["V 93","V 107","V(2,3)","V 166"],
 		},
 		{
 			vertexId :"V 95",
-			connected_vertices : ["V 84","V 93 (2)"],
+			connected_vertices : ["V 84","V 245","V 169 (2)","V 93 (2)","V 95 (2)"],
 		},
 		{
 			vertexId :"V 95 (2)",
-			connected_vertices : ["V 84 (2)","V 23"],
+			connected_vertices : ["V 95","V 84 (2)","V 23","V 96 (2)"],
 		},
 		{
 			vertexId :"V 96 (2)",
-			connected_vertices : ["V 178","V 178 (2)","V 23"],
+			connected_vertices : ["V 178","V 178 (2)","V 169 (2)","V 23","V 95 (2)"],
 		},
 		{
 			vertexId :"V 98 (2)",
-			connected_vertices : ["V 112","V(2,7)"],
+			connected_vertices : ["V 171 (2)","V 112","V(2,7)","V 171","V 23"],
 		},
 		{
 			vertexId :"V 107",
-			connected_vertices : ["V 94","V 28"],
+			connected_vertices : ["V 94","V 28","V 175","V 174"],
 		},
 		{
 			vertexId :"V 111",
-			connected_vertices : ["V 178 (2)","V 23"],
+			connected_vertices : ["V 112","V 178 (2)","V 111 (2)","V 23"],
 		},
 		{
 			vertexId :"V 111 (2)",
-			connected_vertices : ["V 123","V 180","V 180 (2)"],
+			connected_vertices : ["V 123","V 180","V 112 (2)","V 180 (2)","V 111"],
 		},
 		{
 			vertexId :"V 112",
-			connected_vertices : ["V(3,7)","V 98 (2)"],
+			connected_vertices : ["V(3,7)","V 112 (2)","V 111","V 98 (2)"],
 		},
 		{
 			vertexId :"V 112 (2)",
-			connected_vertices : ["V(3,7)","V 124"],
+			connected_vertices : ["V(3,7)","V 124","V 112","V 111 (2)"],
 		},
 		{
 			vertexId :"V 116 (2)",
-			connected_vertices : ["V 118","V 207 (2)","V 291"],
+			connected_vertices : ["V 118","V 207 (2)","V 35","V 291","V 185 (2)","V 185"],
 		},
 		{
 			vertexId :"V 118",
-			connected_vertices : ["V 116 (2)","V 129"],
+			connected_vertices : ["V 190 (2)","V 116 (2)","V 129","V 190","V 187","V 266 (2)"],
 		},
 		{
 			vertexId :"V 123",
-			connected_vertices : ["V 196 (2)","V 111 (2)"],
+			connected_vertices : ["V 124","V 196 (2)","V 200","V 111 (2)"],
 		},
 		{
 			vertexId :"V 124",
-			connected_vertices : ["V(4,7)","V 112 (2)"],
+			connected_vertices : ["V(4,7)","V 123","V 112 (2)","V 124 (2)"],
 		},
 		{
 			vertexId :"V 124 (2)",
-			connected_vertices : ["V(4,7)","V 423","V 223 (2)"],
+			connected_vertices : ["V(4,7)","V 423","V 124","V 223 (2)","V 200","V 386","V 386 (2)"],
 		},
 		{
 			vertexId :"V 125",
-			connected_vertices : ["V 34 (2)","V(5,0)"],
+			connected_vertices : ["V 204 (2)","V 34 (2)","V 204","V(5,0)","V 42 (2)"],
 		},
 		{
 			vertexId :"V 127",
-			connected_vertices : ["V 204 (2)","V 204","V 35"],
+			connected_vertices : ["V 204 (2)","V 127 (2)","V 204","V 35","V 291","V 291 (2)"],
 		},
 		{
 			vertexId :"V 127 (2)",
-			connected_vertices : ["V(6,2)","V 42 (2)"],
+			connected_vertices : ["V(6,2)","V 128 (2)","V 127","V 42 (2)"],
 		},
 		{
 			vertexId :"V 128 (2)",
-			connected_vertices : ["V(6,2)","V 130"],
+			connected_vertices : ["V(6,2)","V 127 (2)","V 207 (2)","V 130","V 291 (2)"],
 		},
 		{
 			vertexId :"V 129",
-			connected_vertices : ["V 118","V 207 (2)"],
+			connected_vertices : ["V 118","V 207 (2)","V 210","V 210 (2)","V 130"],
 		},
 		{
 			vertexId :"V 130",
-			connected_vertices : ["V 52","V 128 (2)"],
+			connected_vertices : ["V 52","V 212","V 129","V 128 (2)"],
 		},
 		{
 			vertexId :"V 138",
-			connected_vertices : ["V(6,2)","V(7,3)"],
+			connected_vertices : ["V 52","V(6,2)","V(7,3)","V 226","V 226 (2)"],
 		},
 		{
 			vertexId :"V 143 (2)",
-			connected_vertices : ["V 337 (2)","V(7,6)","V 234 (2)"],
+			connected_vertices : ["V 337 (2)","V(7,6)","V 339 (2)","V 340 (2)","V 234 (2)","V 55 (2)"],
 		},
 		{
 			vertexId :"V 153",
-			connected_vertices : ["V 79 (2)","V 5 (2)"],
+			connected_vertices : ["V 79 (2)","V 82","V 153 (2)","V 5 (2)"],
 		},
 		{
 			vertexId :"V 153 (2)",
-			connected_vertices : ["V 5 (2)"],
+			connected_vertices : ["V 82","V 5 (2)","V 153","V 81 (2)"],
 		},
 		{
 			vertexId :"V 162 (2)",
-			connected_vertices : ["V 171 (2)","V 16 (2)"],
+			connected_vertices : ["V 171 (2)","V 16 (2)","V 241 (2)","V 241","V 86"],
 		},
 		{
 			vertexId :"V 166",
-			connected_vertices : ["V 174"],
+			connected_vertices : ["V 94","V 166 (2)","V 93 (2)","V 174"],
 		},
 		{
 			vertexId :"V 166 (2)",
-			connected_vertices : ["V 245","V 245 (2)","V 174 (2)"],
+			connected_vertices : ["V 245","V 245 (2)","V 174 (2)","V 166","V 93 (2)"],
 		},
 		{
 			vertexId :"V 169 (2)",
-			connected_vertices : ["V 177 (2)"],
+			connected_vertices : ["V 95","V 177 (2)","V 245","V 245 (2)","V 96 (2)"],
 		},
 		{
 			vertexId :"V 171",
-			connected_vertices : ["V 241 (2)"],
+			connected_vertices : ["V 171 (2)","V 23","V 241 (2)","V 98 (2)"],
 		},
 		{
 			vertexId :"V 171 (2)",
-			connected_vertices : ["V(2,7)","V 162 (2)"],
+			connected_vertices : ["V(2,7)","V 171","V 162 (2)","V 98 (2)"],
 		},
 		{
 			vertexId :"V 174",
-			connected_vertices : ["V 166"],
+			connected_vertices : ["V 107","V 174 (2)","V 166","V 176"],
 		},
 		{
 			vertexId :"V 174 (2)",
-			connected_vertices : ["V 255 (2)","V 166 (2)","V 353 (2)","V 353"],
+			connected_vertices : ["V 255 (2)","V 166 (2)","V 353 (2)","V 353","V 176","V 174"],
 		},
 		{
 			vertexId :"V 175",
-			connected_vertices : ["V 28 (2)"],
+			connected_vertices : ["V 107","V 349","V 28 (2)","V 176","V 252 (2)"],
 		},
 		{
 			vertexId :"V 176",
-			connected_vertices : ["V 355","V 355 (2)"],
+			connected_vertices : ["V 254 (2)","V 355","V 355 (2)","V 174 (2)","V 254","V 175","V 174"],
 		},
 		{
 			vertexId :"V 177 (2)",
-			connected_vertices : ["V 169 (2)"],
+			connected_vertices : ["V 255 (2)","V 178","V 169 (2)","V 259 (2)","V 353 (2)","V 353"],
 		},
 		{
 			vertexId :"V 178",
-			connected_vertices : ["V 96 (2)"],
+			connected_vertices : ["V 177 (2)","V 178 (2)","V 180","V 96 (2)"],
 		},
 		{
 			vertexId :"V 178 (2)",
-			connected_vertices : ["V 111","V 96 (2)"],
+			connected_vertices : ["V 178","V 180","V 111","V 96 (2)"],
 		},
 		{
 			vertexId :"V 180",
-			connected_vertices : ["V 111 (2)"],
+			connected_vertices : ["V 178","V 178 (2)","V 111 (2)","V 259 (2)","V 180 (2)"],
 		},
 		{
 			vertexId :"V 180 (2)",
-			connected_vertices : ["V 196 (2)","V 111 (2)","V 281"],
+			connected_vertices : ["V 260 (2)","V 196 (2)","V 180","V 111 (2)","V 281"],
 		},
 		{
 			vertexId :"V 185",
-			connected_vertices : ["V 27 (2)"],
+			connected_vertices : ["V 116 (2)","V 27 (2)","V 35","V 185 (2)"],
 		},
 		{
 			vertexId :"V 185 (2)",
-			connected_vertices : ["V 27 (2)","V 187"],
+			connected_vertices : ["V 116 (2)","V 27 (2)","V 187","V 185"],
 		},
 		{
 			vertexId :"V 187",
-			connected_vertices : ["V 28 (2)","V 185 (2)"],
+			connected_vertices : ["V 266","V 118","V 28 (2)","V 185 (2)","V 266 (2)"],
 		},
 		{
 			vertexId :"V 188",
-			connected_vertices : ["V 28 (2)"],
+			connected_vertices : ["V 188 (2)","V 266","V 190","V 28 (2)","V 266 (2)"],
 		},
 		{
 			vertexId :"V 188 (2)",
-			connected_vertices : ["V 191","V 28 (2)"],
+			connected_vertices : ["V 191","V 190","V 28 (2)","V 188"],
 		},
 		{
 			vertexId :"V 190",
-			connected_vertices : ["V 275"],
+			connected_vertices : ["V 188 (2)","V 190 (2)","V 118","V 188","V 275"],
 		},
 		{
 			vertexId :"V 190 (2)",
-			connected_vertices : ["V 193 (2)","V 210"],
+			connected_vertices : ["V 118","V 190","V 193 (2)","V 210"],
 		},
 		{
 			vertexId :"V 191",
-			connected_vertices : ["V 188 (2)","V 349 (2)"],
+			connected_vertices : ["V 188 (2)","V 349 (2)","V 272 (2)","V 272","V 275"],
 		},
 		{
 			vertexId :"V 193 (2)",
-			connected_vertices : ["V 190 (2)","V 297 (2)","V 297"],
+			connected_vertices : ["V 190 (2)","V 297 (2)","V 278","V 275 (2)","V 275","V 297"],
 		},
 		{
 			vertexId :"V 195 (2)",
-			connected_vertices : ["V 260 (2)"],
+			connected_vertices : ["V 260 (2)","V 283 (2)","V 455 (2)","V 281","V 281 (2)","V 373 (2)","V 279 (2)"],
 		},
 		{
 			vertexId :"V 196 (2)",
-			connected_vertices : ["V 123","V 180 (2)"],
+			connected_vertices : ["V 123","V 285 (2)","V 180 (2)","V 281","V 281 (2)"],
 		},
 		{
 			vertexId :"V 200",
-			connected_vertices : ["V 285 (2)"],
+			connected_vertices : ["V 123","V 288","V 285 (2)","V 124 (2)","V 386"],
 		},
 		{
 			vertexId :"V 204",
-			connected_vertices : ["V 34 (2)","V 127"],
+			connected_vertices : ["V 125","V 204 (2)","V 34 (2)","V 127"],
 		},
 		{
 			vertexId :"V 204 (2)",
-			connected_vertices : ["V 127"],
+			connected_vertices : ["V 125","V 127","V 204","V 42 (2)"],
 		},
 		{
 			vertexId :"V 207 (2)",
-			connected_vertices : ["V 116 (2)","V 129"],
+			connected_vertices : ["V 116 (2)","V 129","V 128 (2)","V 291","V 291 (2)"],
 		},
 		{
 			vertexId :"V 210",
-			connected_vertices : ["V 190 (2)","V 297"],
+			connected_vertices : ["V 190 (2)","V 129","V 210 (2)","V 297"],
 		},
 		{
 			vertexId :"V 210 (2)",
-			connected_vertices : ["V 298"],
+			connected_vertices : ["V 212","V 129","V 210","V 298","V 212 (2)"],
 		},
 		{
 			vertexId :"V 212",
-			connected_vertices : ["V 52"],
+			connected_vertices : ["V 52","V 210 (2)","V 130","V 212 (2)"],
 		},
 		{
 			vertexId :"V 212 (2)",
-			connected_vertices : ["V 52","V 215"],
+			connected_vertices : ["V 52","V 212","V 215","V 210 (2)"],
 		},
 		{
 			vertexId :"V 214",
-			connected_vertices : ["V 278","V 399","V 372 (2)","V 399 (2)"],
+			connected_vertices : ["V 297 (2)","V 278","V 300","V 399","V 300 (2)","V 372 (2)","V 399 (2)"],
 		},
 		{
 			vertexId :"V 215",
-			connected_vertices : ["V 227","V 212 (2)"],
+			connected_vertices : ["V 302 (2)","V 227","V 298","V 395","V 212 (2)"],
 		},
 		{
 			vertexId :"V 216",
-			connected_vertices : ["V 228"],
+			connected_vertices : ["V 300","V 302 (2)","V 398","V 228","V 395 (2)","V 397","V 397 (2)","V 398 (2)"],
 		},
 		{
 			vertexId :"V 223 (2)",
-			connected_vertices : ["V(5,7)","V 124 (2)"],
+			connected_vertices : ["V 423","V 224 (2)","V(5,7)","V 124 (2)","V 317 (2)","V 423 (2)"],
 		},
 		{
 			vertexId :"V 224 (2)",
-			connected_vertices : ["V(5,7)","V 55 (2)"],
+			connected_vertices : ["V 319 (2)","V 223 (2)","V(5,7)","V 319","V 55 (2)"],
 		},
 		{
 			vertexId :"V 226",
-			connected_vertices : ["V 327"],
+			connected_vertices : ["V 52","V 327","V 138","V 226 (2)"],
 		},
 		{
 			vertexId :"V 226 (2)",
-			connected_vertices : ["V 229 (2)","V(7,3)"],
+			connected_vertices : ["V 229 (2)","V(7,3)","V 138","V 226"],
 		},
 		{
 			vertexId :"V 227",
-			connected_vertices : ["V 52","V 215"],
+			connected_vertices : ["V 52","V 327","V 215","V 227 (2)"],
 		},
 		{
 			vertexId :"V 227 (2)",
-			connected_vertices : ["V 302 (2)"],
+			connected_vertices : ["V 302 (2)","V 327 (2)","V 228","V 227"],
 		},
 		{
 			vertexId :"V 228",
-			connected_vertices : ["V 216"],
+			connected_vertices : ["V 216","V 326","V 326 (2)","V 227 (2)","V 230"],
 		},
 		{
 			vertexId :"V 229 (2)",
-			connected_vertices : ["V(7,4)","V 226 (2)"],
+			connected_vertices : ["V 230 (2)","V(7,4)","V 327 (2)","V 327","V 226 (2)"],
 		},
 		{
 			vertexId :"V 230",
-			connected_vertices : ["V 233"],
+			connected_vertices : ["V 230 (2)","V 233","V 327 (2)","V 228","V 326 (2)"],
 		},
 		{
 			vertexId :"V 230 (2)",
-			connected_vertices : ["V(7,4)","V 233 (2)"],
+			connected_vertices : ["V 229 (2)","V(7,4)","V 233 (2)","V 230"],
 		},
 		{
 			vertexId :"V 231",
-			connected_vertices : ["V 408 (2)","V 326","V 326 (2)"],
+			connected_vertices : ["V 408 (2)","V 233","V 231 (2)","V 326","V 326 (2)"],
 		},
 		{
 			vertexId :"V 231 (2)",
-			connected_vertices : ["V 310 (2)"],
+			connected_vertices : ["V 333","V 432","V 233","V 310 (2)","V 231"],
 		},
 		{
 			vertexId :"V 233",
-			connected_vertices : ["V 230"],
+			connected_vertices : ["V 231 (2)","V 435","V 233 (2)","V 231","V 230"],
 		},
 		{
 			vertexId :"V 233 (2)",
-			connected_vertices : ["V 230 (2)","V 341 (2)","V 341"],
+			connected_vertices : ["V 230 (2)","V 233","V 234 (2)","V 341 (2)","V 341"],
 		},
 		{
 			vertexId :"V 234 (2)",
-			connected_vertices : ["V 238","V 143 (2)"],
+			connected_vertices : ["V 337 (2)","V 435 (2)","V 238","V 435","V 233 (2)","V 143 (2)"],
 		},
 		{
 			vertexId :"V 237 (2)",
-			connected_vertices : ["V(7,4)"],
+			connected_vertices : ["V(7,4)","V 62 (2)","V 238 (2)","V 341 (2)","V 341"],
 		},
 		{
 			vertexId :"V 238",
-			connected_vertices : ["V(7,6)","V 234 (2)"],
+			connected_vertices : ["V(7,6)","V 234 (2)","V 238 (2)","V 341 (2)"],
 		},
 		{
 			vertexId :"V 238 (2)",
-			connected_vertices : ["V(7,6)"],
+			connected_vertices : ["V(7,6)","V 62 (2)","V 238","V 237 (2)"],
 		},
 		{
 			vertexId :"V 241",
-			connected_vertices : [],
+			connected_vertices : ["V 85 (2)","V 162 (2)","V 241 (2)","V 86"],
 		},
 		{
 			vertexId :"V 241 (2)",
-			connected_vertices : ["V 171"],
+			connected_vertices : ["V 85 (2)","V 171","V 162 (2)","V 241"],
 		},
 		{
 			vertexId :"V 245",
-			connected_vertices : ["V 166 (2)"],
+			connected_vertices : ["V 95","V 166 (2)","V 169 (2)","V 245 (2)"],
 		},
 		{
 			vertexId :"V 245 (2)",
-			connected_vertices : ["V 166 (2)","V 353"],
+			connected_vertices : ["V 245","V 166 (2)","V 169 (2)","V 353"],
 		},
 		{
 			vertexId :"V 252 (2)",
-			connected_vertices : ["V 272"],
+			connected_vertices : ["V 349 (2)","V 349","V 272","V 254","V 175"],
 		},
 		{
 			vertexId :"V 254",
-			connected_vertices : ["V 273"],
+			connected_vertices : ["V 254 (2)","V 176","V 252 (2)","V 273"],
 		},
 		{
 			vertexId :"V 254 (2)",
-			connected_vertices : ["V 357","V 365","V 357 (2)"],
+			connected_vertices : ["V 357","V 365","V 254","V 176","V 357 (2)"],
 		},
 		{
 			vertexId :"V 255 (2)",
-			connected_vertices : ["V 174 (2)"],
+			connected_vertices : ["V 177 (2)","V 355","V 174 (2)","V 353 (2)"],
 		},
 		{
 			vertexId :"V 259 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 177 (2)","V 260 (2)","V 355","V 355 (2)","V 180"],
 		},
 		{
 			vertexId :"V 260 (2)",
-			connected_vertices : ["V 195 (2)"],
+			connected_vertices : ["V 195 (2)","V 357","V 259 (2)","V 180 (2)","V 357 (2)"],
 		},
 		{
 			vertexId :"V 266",
-			connected_vertices : ["V 28 (2)"],
+			connected_vertices : ["V 28 (2)","V 188","V 187","V 266 (2)"],
 		},
 		{
 			vertexId :"V 266 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 266","V 118","V 188","V 187"],
 		},
 		{
 			vertexId :"V 272",
-			connected_vertices : ["V 252 (2)"],
+			connected_vertices : ["V 191","V 272 (2)","V 252 (2)","V 273"],
 		},
 		{
 			vertexId :"V 272 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 273 (2)","V 191","V 272","V 275 (2)"],
 		},
 		{
 			vertexId :"V 273",
-			connected_vertices : ["V 254"],
+			connected_vertices : ["V 273 (2)","V 365","V 365 (2)","V 272","V 254"],
 		},
 		{
 			vertexId :"V 273 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 277","V 274 (2)","V 272 (2)","V 273"],
 		},
 		{
 			vertexId :"V 274 (2)",
-			connected_vertices : ["V 279 (2)"],
+			connected_vertices : ["V 273 (2)","V 365 (2)","V 277 (2)","V 279 (2)"],
 		},
 		{
 			vertexId :"V 275",
-			connected_vertices : ["V 190"],
+			connected_vertices : ["V 191","V 190","V 193 (2)","V 275 (2)"],
 		},
 		{
 			vertexId :"V 275 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 277","V 193 (2)","V 272 (2)","V 275"],
 		},
 		{
 			vertexId :"V 277",
-			connected_vertices : [],
+			connected_vertices : ["V 273 (2)","V 278","V 275 (2)","V 277 (2)"],
 		},
 		{
 			vertexId :"V 277 (2)",
-			connected_vertices : ["V 283"],
+			connected_vertices : ["V 277","V 274 (2)","V 283","V 372"],
 		},
 		{
 			vertexId :"V 278",
-			connected_vertices : ["V 214"],
+			connected_vertices : ["V 214","V 277","V 193 (2)","V 372 (2)","V 372"],
 		},
 		{
 			vertexId :"V 279 (2)",
-			connected_vertices : ["V 274 (2)"],
+			connected_vertices : ["V 195 (2)","V 274 (2)","V 283","V 373 (2)"],
 		},
 		{
 			vertexId :"V 281",
-			connected_vertices : ["V 180 (2)"],
+			connected_vertices : ["V 195 (2)","V 196 (2)","V 180 (2)","V 281 (2)"],
 		},
 		{
 			vertexId :"V 281 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 195 (2)","V 196 (2)","V 281","V 285"],
 		},
 		{
 			vertexId :"V 283",
-			connected_vertices : ["V 277 (2)"],
+			connected_vertices : ["V 379","V 283 (2)","V 277 (2)","V 279 (2)"],
 		},
 		{
 			vertexId :"V 283 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 195 (2)","V 283","V 380","V 285"],
 		},
 		{
 			vertexId :"V 285",
-			connected_vertices : [],
+			connected_vertices : ["V 283 (2)","V 285 (2)","V 281 (2)","V 383"],
 		},
 		{
 			vertexId :"V 285 (2)",
-			connected_vertices : ["V 200"],
+			connected_vertices : ["V 532","V 196 (2)","V 200","V 463","V 285"],
 		},
 		{
 			vertexId :"V 288",
-			connected_vertices : ["V 313","V 532","V 580 (2)","V 384 (2)"],
+			connected_vertices : ["V 313","V 532","V 580 (2)","V 200","V 384 (2)","V 386","V 386 (2)"],
 		},
 		{
 			vertexId :"V 291",
-			connected_vertices : ["V 116 (2)"],
+			connected_vertices : ["V 116 (2)","V 127","V 207 (2)","V 291 (2)"],
 		},
 		{
 			vertexId :"V 291 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 128 (2)","V 127","V 207 (2)","V 291"],
 		},
 		{
 			vertexId :"V 297",
-			connected_vertices : ["V 193 (2)","V 210"],
+			connected_vertices : ["V 297 (2)","V 193 (2)","V 210","V 298"],
 		},
 		{
 			vertexId :"V 297 (2)",
-			connected_vertices : ["V 193 (2)"],
+			connected_vertices : ["V 214","V 392 (2)","V 193 (2)","V 392","V 297"],
 		},
 		{
 			vertexId :"V 298",
-			connected_vertices : ["V 210 (2)"],
+			connected_vertices : ["V 215","V 392","V 210 (2)","V 297"],
 		},
 		{
 			vertexId :"V 300",
-			connected_vertices : [],
+			connected_vertices : ["V 214","V 300 (2)","V 392 (2)","V 216"],
 		},
 		{
 			vertexId :"V 300 (2)",
-			connected_vertices : ["V 401","V 480"],
+			connected_vertices : ["V 214","V 401","V 300","V 480","V 397"],
 		},
 		{
 			vertexId :"V 302 (2)",
-			connected_vertices : ["V 227 (2)"],
+			connected_vertices : ["V 216","V 215","V 395 (2)","V 227 (2)","V 395"],
 		},
 		{
 			vertexId :"V 307 (2)",
-			connected_vertices : ["V 313","V 384 (2)"],
+			connected_vertices : ["V 313","V 542 (2)","V 403","V 384 (2)","V 406"],
 		},
 		{
 			vertexId :"V 310 (2)",
-			connected_vertices : ["V 231 (2)"],
+			connected_vertices : ["V 412","V 408 (2)","V 494 (2)","V 231 (2)","V 409","V 408"],
 		},
 		{
 			vertexId :"V 313",
-			connected_vertices : ["V 307 (2)","V 288"],
+			connected_vertices : ["V 307 (2)","V 416 (2)","V 288","V 416","V 417 (2)","V 417"],
 		},
 		{
 			vertexId :"V 316",
-			connected_vertices : [],
+			connected_vertices : ["V 422","V 419 (2)","V 418 (2)","V 319"],
 		},
 		{
 			vertexId :"V 317 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 223 (2)","V 418 (2)","V 319","V 418","V 423 (2)"],
 		},
 		{
 			vertexId :"V 319",
-			connected_vertices : [],
+			connected_vertices : ["V 319 (2)","V 224 (2)","V 316","V 317 (2)"],
 		},
 		{
 			vertexId :"V 319 (2)",
-			connected_vertices : ["V 55 (2)"],
+			connected_vertices : ["V 224 (2)","V 422","V 422 (2)","V 319","V 55 (2)"],
 		},
 		{
 			vertexId :"V 326",
-			connected_vertices : ["V 231","V 398 (2)"],
+			connected_vertices : ["V 228","V 326 (2)","V 231","V 398 (2)"],
 		},
 		{
 			vertexId :"V 326 (2)",
-			connected_vertices : ["V 231"],
+			connected_vertices : ["V 228","V 326","V 231","V 230"],
 		},
 		{
 			vertexId :"V 327",
-			connected_vertices : ["V 226"],
+			connected_vertices : ["V 229 (2)","V 327 (2)","V 227","V 226"],
 		},
 		{
 			vertexId :"V 327 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 229 (2)","V 327","V 227 (2)","V 230"],
 		},
 		{
 			vertexId :"V 333",
-			connected_vertices : ["V 412","V 498 (2)"],
+			connected_vertices : ["V 412","V 433","V 432","V 433 (2)","V 432 (2)","V 231 (2)","V 498 (2)"],
 		},
 		{
 			vertexId :"V 337 (2)",
-			connected_vertices : ["V 143 (2)"],
+			connected_vertices : ["V 434 (2)","V 435 (2)","V 234 (2)","V 143 (2)"],
 		},
 		{
 			vertexId :"V 339 (2)",
-			connected_vertices : ["V 434","V 434 (2)"],
+			connected_vertices : ["V 434","V 434 (2)","V 340 (2)","V 525 (2)","V 437 (2)","V 143 (2)"],
 		},
 		{
 			vertexId :"V 340 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 528 (2)","V 339 (2)","V 528","V 143 (2)","V 55 (2)"],
 		},
 		{
 			vertexId :"V 341",
-			connected_vertices : ["V(7,4)","V 233 (2)"],
+			connected_vertices : ["V(7,4)","V 233 (2)","V 341 (2)","V 237 (2)"],
 		},
 		{
 			vertexId :"V 341 (2)",
-			connected_vertices : ["V 233 (2)"],
+			connected_vertices : ["V 238","V 233 (2)","V 237 (2)","V 341"],
 		},
 		{
 			vertexId :"V 349",
-			connected_vertices : ["V 28 (2)"],
+			connected_vertices : ["V 349 (2)","V 28 (2)","V 175","V 252 (2)"],
 		},
 		{
 			vertexId :"V 349 (2)",
-			connected_vertices : ["V 191","V 28 (2)"],
+			connected_vertices : ["V 191","V 349","V 28 (2)","V 252 (2)"],
 		},
 		{
 			vertexId :"V 353",
-			connected_vertices : ["V 245 (2)","V 174 (2)"],
+			connected_vertices : ["V 177 (2)","V 245 (2)","V 174 (2)","V 353 (2)"],
 		},
 		{
 			vertexId :"V 353 (2)",
-			connected_vertices : ["V 174 (2)"],
+			connected_vertices : ["V 177 (2)","V 255 (2)","V 174 (2)","V 353"],
 		},
 		{
 			vertexId :"V 355",
-			connected_vertices : ["V 176"],
+			connected_vertices : ["V 255 (2)","V 355 (2)","V 259 (2)","V 176"],
 		},
 		{
 			vertexId :"V 355 (2)",
-			connected_vertices : ["V 176"],
+			connected_vertices : ["V 357","V 355","V 259 (2)","V 176"],
 		},
 		{
 			vertexId :"V 357",
-			connected_vertices : ["V 254 (2)"],
+			connected_vertices : ["V 254 (2)","V 260 (2)","V 355 (2)","V 357 (2)"],
 		},
 		{
 			vertexId :"V 357 (2)",
-			connected_vertices : ["V 254 (2)","V 455 (2)","V 529"],
+			connected_vertices : ["V 357","V 254 (2)","V 260 (2)","V 455 (2)","V 529"],
 		},
 		{
 			vertexId :"V 365",
-			connected_vertices : ["V 529 (2)","V 254 (2)","V 529"],
+			connected_vertices : ["V 529 (2)","V 254 (2)","V 365 (2)","V 529","V 273"],
 		},
 		{
 			vertexId :"V 365 (2)",
-			connected_vertices : ["V 373 (2)"],
+			connected_vertices : ["V 365","V 274 (2)","V 373 (2)","V 273"],
 		},
 		{
 			vertexId :"V 372",
-			connected_vertices : ["V 379"],
+			connected_vertices : ["V 379","V 278","V 372 (2)","V 277 (2)"],
 		},
 		{
 			vertexId :"V 372 (2)",
-			connected_vertices : ["V 214","V 379 (2)"],
+			connected_vertices : ["V 214","V 278","V 379 (2)","V 372"],
 		},
 		{
 			vertexId :"V 373 (2)",
-			connected_vertices : ["V 365 (2)"],
+			connected_vertices : ["V 195 (2)","V 529 (2)","V 365 (2)","V 455 (2)","V 279 (2)"],
 		},
 		{
 			vertexId :"V 379",
-			connected_vertices : ["V 372"],
+			connected_vertices : ["V 379 (2)","V 283","V 380","V 372"],
 		},
 		{
 			vertexId :"V 379 (2)",
-			connected_vertices : ["V 399","V 372 (2)"],
+			connected_vertices : ["V 379","V 399","V 380 (2)","V 372 (2)"],
 		},
 		{
 			vertexId :"V 380",
-			connected_vertices : [],
+			connected_vertices : ["V 379","V 380 (2)","V 283 (2)","V 383"],
 		},
 		{
 			vertexId :"V 380 (2)",
-			connected_vertices : ["V 400"],
+			connected_vertices : ["V 400","V 379 (2)","V 380","V 383 (2)"],
 		},
 		{
 			vertexId :"V 383",
-			connected_vertices : [],
+			connected_vertices : ["V 380","V 463","V 285","V 383 (2)"],
 		},
 		{
 			vertexId :"V 383 (2)",
-			connected_vertices : ["V 403"],
+			connected_vertices : ["V 380 (2)","V 403","V 384 (2)","V 383"],
 		},
 		{
 			vertexId :"V 384 (2)",
-			connected_vertices : ["V 307 (2)","V 288"],
+			connected_vertices : ["V 307 (2)","V 580 (2)","V 288","V 608 (2)","V 603","V 463","V 383 (2)"],
 		},
 		{
 			vertexId :"V 386",
-			connected_vertices : [],
+			connected_vertices : ["V 200","V 288","V 124 (2)","V 386 (2)"],
 		},
 		{
 			vertexId :"V 386 (2)",
-			connected_vertices : ["V 416"],
+			connected_vertices : ["V 288","V 416","V 124 (2)","V 386"],
 		},
 		{
 			vertexId :"V 392",
-			connected_vertices : [],
+			connected_vertices : ["V 297 (2)","V 392 (2)","V 298","V 395"],
 		},
 		{
 			vertexId :"V 392 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 297 (2)","V 300","V 392","V 395 (2)"],
 		},
 		{
 			vertexId :"V 395",
-			connected_vertices : [],
+			connected_vertices : ["V 302 (2)","V 215","V 392","V 395 (2)"],
 		},
 		{
 			vertexId :"V 395 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 302 (2)","V 392 (2)","V 216","V 395"],
 		},
 		{
 			vertexId :"V 397",
-			connected_vertices : ["V 489"],
+			connected_vertices : ["V 489","V 300 (2)","V 216","V 397 (2)"],
 		},
 		{
 			vertexId :"V 397 (2)",
-			connected_vertices : ["V 490"],
+			connected_vertices : ["V 398","V 216","V 490","V 397"],
 		},
 		{
 			vertexId :"V 398",
-			connected_vertices : ["V 408"],
+			connected_vertices : ["V 216","V 408","V 397 (2)","V 398 (2)"],
 		},
 		{
 			vertexId :"V 398 (2)",
-			connected_vertices : ["V 408 (2)","V 326"],
+			connected_vertices : ["V 408 (2)","V 398","V 216","V 326"],
 		},
 		{
 			vertexId :"V 399",
-			connected_vertices : ["V 214","V 379 (2)"],
+			connected_vertices : ["V 214","V 400","V 379 (2)","V 399 (2)"],
 		},
 		{
 			vertexId :"V 399 (2)",
-			connected_vertices : ["V 214"],
+			connected_vertices : ["V 214","V 401","V 478","V 399"],
 		},
 		{
 			vertexId :"V 400",
-			connected_vertices : ["V 380 (2)"],
+			connected_vertices : ["V 478","V 399","V 380 (2)","V 403","V 478 (2)"],
 		},
 		{
 			vertexId :"V 401",
-			connected_vertices : ["V 300 (2)"],
+			connected_vertices : ["V 300 (2)","V 537","V 480 (2)","V 480","V 399 (2)"],
 		},
 		{
 			vertexId :"V 403",
-			connected_vertices : ["V 383 (2)"],
+			connected_vertices : ["V 307 (2)","V 542 (2)","V 400","V 542","V 484","V 383 (2)"],
 		},
 		{
 			vertexId :"V 406",
-			connected_vertices : ["V 417"],
+			connected_vertices : ["V 307 (2)","V 488","V 486","V 488 (2)","V 417"],
 		},
 		{
 			vertexId :"V 408",
-			connected_vertices : ["V 398"],
+			connected_vertices : ["V 408 (2)","V 398","V 310 (2)","V 490","V 490 (2)"],
 		},
 		{
 			vertexId :"V 408 (2)",
-			connected_vertices : ["V 231","V 398 (2)"],
+			connected_vertices : ["V 310 (2)","V 408","V 231","V 398 (2)"],
 		},
 		{
 			vertexId :"V 409",
-			connected_vertices : [],
+			connected_vertices : ["V 489 (2)","V 494 (2)","V 481 (2)","V 310 (2)","V 490 (2)","V 494"],
 		},
 		{
 			vertexId :"V 412",
-			connected_vertices : ["V 333"],
+			connected_vertices : ["V 495 (2)","V 333","V 559","V 310 (2)","V 498 (2)"],
 		},
 		{
 			vertexId :"V 416",
-			connected_vertices : ["V 386 (2)"],
+			connected_vertices : ["V 313","V 423","V 416 (2)","V 386 (2)"],
 		},
 		{
 			vertexId :"V 416 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 313","V 416","V 418","V 423 (2)"],
 		},
 		{
 			vertexId :"V 417",
-			connected_vertices : ["V 488 (2)","V 406"],
+			connected_vertices : ["V 313","V 488 (2)","V 417 (2)","V 406","V 509"],
 		},
 		{
 			vertexId :"V 417 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 313","V 419 (2)","V 418 (2)","V 418","V 417"],
 		},
 		{
 			vertexId :"V 418",
-			connected_vertices : [],
+			connected_vertices : ["V 416 (2)","V 417 (2)","V 418 (2)","V 317 (2)"],
 		},
 		{
 			vertexId :"V 418 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 316","V 417 (2)","V 317 (2)","V 418"],
 		},
 		{
 			vertexId :"V 419 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 316","V 417 (2)","V 420 (2)","V 509 (2)","V 509"],
 		},
 		{
 			vertexId :"V 420 (2)",
-			connected_vertices : ["V 437 (2)"],
+			connected_vertices : ["V 511","V 422","V 422 (2)","V 511 (2)","V 419 (2)","V 437 (2)"],
 		},
 		{
 			vertexId :"V 422",
-			connected_vertices : [],
+			connected_vertices : ["V 319 (2)","V 422 (2)","V 316","V 420 (2)"],
 		},
 		{
 			vertexId :"V 422 (2)",
-			connected_vertices : ["V 439"],
+			connected_vertices : ["V 319 (2)","V 422","V 420 (2)","V 439"],
 		},
 		{
 			vertexId :"V 423",
-			connected_vertices : ["V 124 (2)"],
+			connected_vertices : ["V 223 (2)","V 416","V 124 (2)","V 423 (2)"],
 		},
 		{
 			vertexId :"V 423 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 423","V 223 (2)","V 416 (2)","V 317 (2)"],
 		},
 		{
 			vertexId :"V 432",
-			connected_vertices : [],
+			connected_vertices : ["V 333","V 432 (2)","V 231 (2)","V 435"],
 		},
 		{
 			vertexId :"V 432 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 434","V 434 (2)","V 333","V 432","V 435 (2)"],
 		},
 		{
 			vertexId :"V 433",
-			connected_vertices : ["V 525","V 502","V 502 (2)"],
+			connected_vertices : ["V 333","V 433 (2)","V 525","V 502","V 502 (2)"],
 		},
 		{
 			vertexId :"V 433 (2)",
-			connected_vertices : ["V 525 (2)"],
+			connected_vertices : ["V 434","V 433","V 333","V 525 (2)"],
 		},
 		{
 			vertexId :"V 434",
-			connected_vertices : ["V 339 (2)"],
+			connected_vertices : ["V 434 (2)","V 433 (2)","V 339 (2)","V 432 (2)"],
 		},
 		{
 			vertexId :"V 434 (2)",
-			connected_vertices : ["V 339 (2)"],
+			connected_vertices : ["V 434","V 337 (2)","V 339 (2)","V 432 (2)"],
 		},
 		{
 			vertexId :"V 435",
-			connected_vertices : [],
+			connected_vertices : ["V 432","V 233","V 435 (2)","V 234 (2)"],
 		},
 		{
 			vertexId :"V 435 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 337 (2)","V 234 (2)","V 432 (2)","V 435"],
 		},
 		{
 			vertexId :"V 437 (2)",
-			connected_vertices : ["V 420 (2)"],
+			connected_vertices : ["V 339 (2)","V 525 (2)","V 525","V 528","V 420 (2)","V 439"],
 		},
 		{
 			vertexId :"V 439",
-			connected_vertices : ["V 422 (2)"],
+			connected_vertices : ["V 422 (2)","V 528 (2)","V 437 (2)","V 528","V 55 (2)"],
 		},
 		{
 			vertexId :"V 455 (2)",
-			connected_vertices : ["V 357 (2)"],
+			connected_vertices : ["V 195 (2)","V 529 (2)","V 529","V 357 (2)","V 373 (2)"],
 		},
 		{
 			vertexId :"V 463",
-			connected_vertices : [],
+			connected_vertices : ["V 532","V 603","V 285 (2)","V 384 (2)","V 383"],
 		},
 		{
 			vertexId :"V 478",
-			connected_vertices : [],
+			connected_vertices : ["V 400","V 537","V 537 (2)","V 399 (2)","V 478 (2)"],
 		},
 		{
 			vertexId :"V 478 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 478","V 400","V 484","V 482"],
 		},
 		{
 			vertexId :"V 480",
-			connected_vertices : ["V 300 (2)"],
+			connected_vertices : ["V 401","V 489","V 300 (2)","V 480 (2)"],
 		},
 		{
 			vertexId :"V 480 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 401","V 489 (2)","V 481 (2)","V 480"],
 		},
 		{
 			vertexId :"V 481 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 537","V 537 (2)","V 409","V 480 (2)","V 540 (2)","V 540"],
 		},
 		{
 			vertexId :"V 482",
-			connected_vertices : [],
+			connected_vertices : ["V 543","V 537 (2)","V 540","V 543 (2)","V 478 (2)"],
 		},
 		{
 			vertexId :"V 484",
-			connected_vertices : [],
+			connected_vertices : ["V 543","V 542","V 403","V 478 (2)"],
 		},
 		{
 			vertexId :"V 486",
-			connected_vertices : [],
+			connected_vertices : ["V 542 (2)","V 543","V 542","V 546","V 406","V 543 (2)","V 592"],
 		},
 		{
 			vertexId :"V 488",
-			connected_vertices : [],
+			connected_vertices : ["V 592 (2)","V 488 (2)","V 406","V 561","V 592"],
 		},
 		{
 			vertexId :"V 488 (2)",
-			connected_vertices : ["V 417"],
+			connected_vertices : ["V 488","V 499 (2)","V 406","V 417"],
 		},
 		{
 			vertexId :"V 489",
-			connected_vertices : ["V 397"],
+			connected_vertices : ["V 489 (2)","V 480","V 490","V 397"],
 		},
 		{
 			vertexId :"V 489 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 489","V 409","V 480 (2)","V 490 (2)"],
 		},
 		{
 			vertexId :"V 490",
-			connected_vertices : ["V 397 (2)"],
+			connected_vertices : ["V 489","V 408","V 397 (2)","V 490 (2)"],
 		},
 		{
 			vertexId :"V 490 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 489 (2)","V 409","V 408","V 490"],
 		},
 		{
 			vertexId :"V 494",
-			connected_vertices : [],
+			connected_vertices : ["V 494 (2)","V 409","V 540 (2)","V 495"],
 		},
 		{
 			vertexId :"V 494 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 495 (2)","V 310 (2)","V 409","V 494"],
 		},
 		{
 			vertexId :"V 495",
-			connected_vertices : [],
+			connected_vertices : ["V 495 (2)","V 557","V 494","V 544 (2)"],
 		},
 		{
 			vertexId :"V 495 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 412","V 494 (2)","V 558","V 495"],
 		},
 		{
 			vertexId :"V 498 (2)",
-			connected_vertices : ["V 333"],
+			connected_vertices : ["V 412","V 333","V 559","V 502","V 559 (2)"],
 		},
 		{
 			vertexId :"V 499 (2)",
-			connected_vertices : ["V 509"],
+			connected_vertices : ["V 561 (2)","V 488 (2)","V 500 (2)","V 561","V 509"],
 		},
 		{
 			vertexId :"V 500",
-			connected_vertices : [],
+			connected_vertices : ["V 561 (2)","V 500 (2)","V 501","V 558 (2)"],
 		},
 		{
 			vertexId :"V 500 (2)",
-			connected_vertices : ["V 509 (2)"],
+			connected_vertices : ["V 500","V 566","V 499 (2)","V 509 (2)"],
 		},
 		{
 			vertexId :"V 501",
-			connected_vertices : [],
+			connected_vertices : ["V 500","V 566","V 566 (2)","V 502","V 559 (2)"],
 		},
 		{
 			vertexId :"V 502",
-			connected_vertices : ["V 433"],
+			connected_vertices : ["V 433","V 498 (2)","V 501","V 502 (2)"],
 		},
 		{
 			vertexId :"V 502 (2)",
-			connected_vertices : ["V 433","V 511 (2)"],
+			connected_vertices : ["V 566 (2)","V 433","V 502","V 511 (2)"],
 		},
 		{
 			vertexId :"V 509",
-			connected_vertices : ["V 499 (2)"],
+			connected_vertices : ["V 499 (2)","V 419 (2)","V 417","V 509 (2)"],
 		},
 		{
 			vertexId :"V 509 (2)",
-			connected_vertices : ["V 500 (2)"],
+			connected_vertices : ["V 511","V 500 (2)","V 419 (2)","V 509"],
 		},
 		{
 			vertexId :"V 511",
-			connected_vertices : ["V 566","V 566 (2)"],
+			connected_vertices : ["V 566","V 566 (2)","V 511 (2)","V 420 (2)","V 509 (2)"],
 		},
 		{
 			vertexId :"V 511 (2)",
-			connected_vertices : ["V 525","V 502 (2)"],
+			connected_vertices : ["V 511","V 525","V 502 (2)","V 420 (2)"],
 		},
 		{
 			vertexId :"V 525",
-			connected_vertices : ["V 433","V 511 (2)"],
+			connected_vertices : ["V 433","V 525 (2)","V 511 (2)","V 437 (2)"],
 		},
 		{
 			vertexId :"V 525 (2)",
-			connected_vertices : ["V 433 (2)"],
+			connected_vertices : ["V 433 (2)","V 339 (2)","V 525","V 437 (2)"],
 		},
 		{
 			vertexId :"V 528",
-			connected_vertices : [],
+			connected_vertices : ["V 528 (2)","V 340 (2)","V 437 (2)","V 439"],
 		},
 		{
 			vertexId :"V 528 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 340 (2)","V 528","V 439","V 55 (2)"],
 		},
 		{
 			vertexId :"V 529",
-			connected_vertices : ["V 365","V 357 (2)"],
+			connected_vertices : ["V 529 (2)","V 365","V 455 (2)","V 357 (2)"],
 		},
 		{
 			vertexId :"V 529 (2)",
-			connected_vertices : ["V 365"],
+			connected_vertices : ["V 365","V 455 (2)","V 529","V 373 (2)"],
 		},
 		{
 			vertexId :"V 532",
-			connected_vertices : ["V 288"],
+			connected_vertices : ["V 580 (2)","V 288","V 603","V 285 (2)","V 611","V 618","V 615","V 463"],
 		},
 		{
 			vertexId :"V 537",
-			connected_vertices : [],
+			connected_vertices : ["V 401","V 478","V 537 (2)","V 481 (2)"],
 		},
 		{
 			vertexId :"V 537 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 478","V 537","V 481 (2)","V 482"],
 		},
 		{
 			vertexId :"V 540",
-			connected_vertices : [],
+			connected_vertices : ["V 544","V 481 (2)","V 540 (2)","V 482"],
 		},
 		{
 			vertexId :"V 540 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 481 (2)","V 540","V 494","V 544 (2)"],
 		},
 		{
 			vertexId :"V 542",
-			connected_vertices : [],
+			connected_vertices : ["V 542 (2)","V 486","V 403","V 484"],
 		},
 		{
 			vertexId :"V 542 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 307 (2)","V 542","V 486","V 403"],
 		},
 		{
 			vertexId :"V 543",
-			connected_vertices : [],
+			connected_vertices : ["V 486","V 484","V 543 (2)","V 482"],
 		},
 		{
 			vertexId :"V 543 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 544","V 543","V 486","V 482"],
 		},
 		{
 			vertexId :"V 544",
-			connected_vertices : [],
+			connected_vertices : ["V 546","V 540","V 543 (2)","V 544 (2)"],
 		},
 		{
 			vertexId :"V 544 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 544","V 546","V 540 (2)","V 495"],
 		},
 		{
 			vertexId :"V 546",
-			connected_vertices : [],
+			connected_vertices : ["V 544","V 592 (2)","V 486","V 557","V 544 (2)","V 592"],
 		},
 		{
 			vertexId :"V 557",
-			connected_vertices : [],
+			connected_vertices : ["V 558","V 546","V 557 (2)","V 495"],
 		},
 		{
 			vertexId :"V 557 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 561 (2)","V 592 (2)","V 557","V 561","V 558 (2)"],
 		},
 		{
 			vertexId :"V 558",
-			connected_vertices : [],
+			connected_vertices : ["V 495 (2)","V 559","V 557","V 558 (2)"],
 		},
 		{
 			vertexId :"V 558 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 500","V 558","V 557 (2)","V 559 (2)"],
 		},
 		{
 			vertexId :"V 559",
-			connected_vertices : [],
+			connected_vertices : ["V 412","V 558","V 498 (2)","V 559 (2)"],
 		},
 		{
 			vertexId :"V 559 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 559","V 498 (2)","V 501","V 558 (2)"],
 		},
 		{
 			vertexId :"V 561",
-			connected_vertices : [],
+			connected_vertices : ["V 488","V 561 (2)","V 499 (2)","V 557 (2)"],
 		},
 		{
 			vertexId :"V 561 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 500","V 499 (2)","V 557 (2)","V 561"],
 		},
 		{
 			vertexId :"V 566",
-			connected_vertices : ["V 511"],
+			connected_vertices : ["V 511","V 566 (2)","V 500 (2)","V 501"],
 		},
 		{
 			vertexId :"V 566 (2)",
-			connected_vertices : ["V 511"],
+			connected_vertices : ["V 511","V 566","V 501","V 502 (2)"],
 		},
 		{
 			vertexId :"V 580 (2)",
-			connected_vertices : ["V 288"],
+			connected_vertices : ["V 532","V 614 (2)","V 288","V 608 (2)","V 618 (2)","V 384 (2)","V 618","V 609 (2)"],
 		},
 		{
 			vertexId :"V 592",
-			connected_vertices : [],
+			connected_vertices : ["V 488","V 592 (2)","V 486","V 546"],
 		},
 		{
 			vertexId :"V 592 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 488","V 546","V 557 (2)","V 592"],
 		},
 		{
 			vertexId :"V 603",
-			connected_vertices : [],
+			connected_vertices : ["V 532","V 608 (2)","V 611","V 384 (2)","V 609 (2)","V 463"],
 		},
 		{
 			vertexId :"V 608 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 580 (2)","V 603","V 384 (2)","V 609 (2)"],
 		},
 		{
 			vertexId :"V 609 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 580 (2)","V 614 (2)","V 608 (2)","V 603","V 611"],
 		},
 		{
 			vertexId :"V 611",
-			connected_vertices : [],
+			connected_vertices : ["V 532","V 614 (2)","V 603","V 609 (2)","V 615"],
 		},
 		{
 			vertexId :"V 614 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 580 (2)","V 611","V 618 (2)","V 609 (2)","V 615"],
 		},
 		{
 			vertexId :"V 615",
-			connected_vertices : [],
+			connected_vertices : ["V 532","V 614 (2)","V 611","V 618 (2)","V 618"],
 		},
 		{
 			vertexId :"V 618",
-			connected_vertices : [],
+			connected_vertices : ["V 532","V 580 (2)","V 618 (2)","V 615"],
 		},
 		{
 			vertexId :"V 618 (2)",
-			connected_vertices : [],
+			connected_vertices : ["V 580 (2)","V 614 (2)","V 618","V 615"],
 		}
 	]
 }
