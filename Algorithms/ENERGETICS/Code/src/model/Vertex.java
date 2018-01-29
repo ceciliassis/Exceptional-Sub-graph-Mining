@@ -10,7 +10,7 @@ public class Vertex implements Comparable<Vertex> {
 	private double[][] descriptorsValues = null;
 	private double[] descriptorsTotals = null;
 	private double[][] descriptorsScores = null;
-	//private OpenBitSet neighborsBitSet;
+	private OpenBitSet neighborsBitSet;
 	private HashSet<Integer> setOfNeighborsId;
 
 	public Vertex(String id, double[][] attributesValues) {
@@ -40,10 +40,10 @@ public class Vertex implements Comparable<Vertex> {
 	}
 
 	public void setupNeighborsIds(int sizeOfGraph) {
-		//neighborsBitSet = new OpenBitSet(sizeOfGraph);
-		//for (int neighborId : setOfNeighborsId) {
-		//	neighborsBitSet.fastSet(neighborId);
-		//}
+		neighborsBitSet = new OpenBitSet(sizeOfGraph);
+		for (int neighborId : setOfNeighborsId) {
+			neighborsBitSet.fastSet(neighborId);
+		}
 	}
 
 	public String getId() {
