@@ -4,3 +4,8 @@
 **.iml
 **/bin
 **.txt
+**/Release
+**.classpath
+**.project
+**.settings
+
