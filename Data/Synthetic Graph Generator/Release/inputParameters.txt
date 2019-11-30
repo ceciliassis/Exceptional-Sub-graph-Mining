@@ -1,9 +1,0 @@
-numberOfVertices=10000
-numberOfEdges=5000
-numberOfAttributes=10
-numberOfPatterns=3
-patternVerticesSize=10
-patternAttributesHalfSize=1
-minAttValue=50
-maxAttValue=150
-patternContrastRate=0.4
