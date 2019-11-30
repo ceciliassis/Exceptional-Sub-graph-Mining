@@ -13,6 +13,9 @@ public class Vertex implements Comparable<Vertex> {
 	private OpenBitSet neighborsBitSet;
 	private HashSet<Integer> setOfNeighborsId;
 
+	public Vertex() {
+	}
+
 	public Vertex(String id, double[][] attributesValues) {
 		this.id = id;
 		this.descriptorsValues = attributesValues;
@@ -65,6 +68,49 @@ public class Vertex implements Comparable<Vertex> {
 	public double getAttributeDescriptorScore(int descriptorId, int attributeId) {
 		return descriptorsScores[descriptorId][attributeId];
 	}
+
+//	----- Adaptation
+
+
+	public double[][] getDescriptorsValues() {
+		return descriptorsValues;
+	}
+
+	public double[] getDescriptorsTotals() {
+		return descriptorsTotals;
+	}
+
+	public double[][] getDescriptorsScores() {
+		return descriptorsScores;
+	}
+
+	public OpenBitSet getNeighborsBitSet() {
+		return neighborsBitSet;
+	}
+
+	public void setId(String id) {
+		this.id = id;
+	}
+
+	public void setDescriptorsValues(double[][] descriptorsValues) {
+		this.descriptorsValues = descriptorsValues;
+	}
+
+	public void setDescriptorsTotals(double[] descriptorsTotals) {
+		this.descriptorsTotals = descriptorsTotals;
+	}
+
+	public void setNeighborsBitSet(OpenBitSet neighborsBitSet) {
+		this.neighborsBitSet = neighborsBitSet;
+	}
+
+	public void setSetOfNeighborsId(HashSet<Integer> setOfNeighborsId) {
+		this.setOfNeighborsId = setOfNeighborsId;
+	}
+
+
+
+
 
 	@Override
 	public boolean equals(Object obj) {

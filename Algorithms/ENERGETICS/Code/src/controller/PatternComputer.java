@@ -7,6 +7,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.HashSet;
+import java.util.logging.Logger;
 
 import org.apache.lucene.util.OpenBitSet;
 
@@ -24,6 +25,8 @@ import model.Vertex;
 import utils.UtilsFunctions;
 
 public class PatternComputer {
+	private final Logger logger = Logger.getLogger("info");
+
 	private Graph graph;
 	private MeasureComputer measureComputer;
 	private ArrayList<Pattern> patterns;
@@ -387,6 +390,24 @@ public class PatternComputer {
 		return listOfCCs;
 	}
 
+	private ArrayList<Vertex> descoverBitsetVertices(OpenBitSet vertices){
+		ArrayList<Vertex> listOfVertices = new ArrayList<>();
+		int i = 0;
+		int k;
+		boolean continu = true;
+		while (continu) {
+			k = vertices.nextSetBit(i);
+			if (k < 0) {
+				continu = false;
+			} else {
+				listOfVertices.add(graph.getVertices()[k]);
+				i = k + 1;
+			}
+		}
+
+		return listOfVertices;
+	}
+
 	private void variateHyperzone(int descriptorIndex, HashSet<Integer> oldPositiveAttributes,
 			HashSet<Integer> oldNegativeAttributes, ArrayList<Vertex> verticesWithCharacteristic) {
 		System.out.println("sizeOfHyp : " + verticesWithCharacteristic.size());
@@ -399,14 +420,127 @@ public class PatternComputer {
 			concernedVertices.fastSet(v.getIndexInGraph());
 		}
 
-		ArrayList<Candidate> candidates = measureComputer.getRankedCandidates(verticesWithCharacteristic,
-				descriptorIndex, positiveAttributes, negativeAttributes);
+//		ArrayList<Candidate> candidates = measureComputer.getRankedCandidates(verticesWithCharacteristic, descriptorIndex, positiveAttributes, negativeAttributes);
 
-		ArrayList<Double> sortedSums = getRankedSums(descriptorIndex, verticesWithCharacteristic);
-		SolutionsOfCC solutionsOfCC = new SolutionsOfCC(graph.getVertices().length);
-		concernedCCSize = verticesWithCharacteristic.size();
-		enumGoodHyperzones(descriptorIndex, positiveAttributes, negativeAttributes, k, candidates, sortedSums,
-				solutionsOfCC, concernedVertices);
+
+//		NOTE: candidates == concerned vertices
+
+//		ArrayList<Double> sortedSums = getRankedSums(descriptorIndex, verticesWithCharacteristic);
+//		SolutionsOfCC solutionsOfCC = new SolutionsOfCC(graph.getVertices().length);
+//		concernedCCSize = verticesWithCharacteristic.size();
+
+
+//		TODO: 1. write graph to file
+
+		write(concernedVertices, descriptorIndex);
+
+
+//		TODO: 2. call fractal
+
+
+
+
+//		[onpaper] SUB-CC(S,(K,Y),R,δ,σ)
+//		[onpaper]                             S+                   S-               K       Y                     R
+//		enumGoodHyperzones(descriptorIndex, positiveAttributes, negativeAttributes, k, candidates, sortedSums, solutionsOfCC, concernedVertices);
+	}
+
+	private void write(OpenBitSet concernedVertices, int descriptorIndex) {
+		logger.info("Gathering vertices to write file");
+
+		ArrayList<Vertex> currentVertices = descoverBitsetVertices(concernedVertices);
+		HashSet<Integer> currentVecticesId = new HashSet<>();
+
+		String path =  "candidates";
+
+		for (Vertex v : currentVertices) {
+			Integer id  = v.getIndexInGraph();
+			path += "_" + id.toString();
+			currentVecticesId.add(id);
+		}
+
+		ArrayList<Vertex> copyiedVerticies = new ArrayList<>();
+
+		for (Vertex v : currentVertices) {
+			HashSet<Integer> allowedNeighbors = new HashSet<>();
+
+			HashSet<Integer> toCheck = v.getSetOfNeighborsId();
+			HashSet<Integer> smallest = currentVecticesId;
+			if (smallest.size() > toCheck.size()) {
+				smallest = toCheck;
+				toCheck = currentVecticesId;
+			}
+
+			for (Integer i: smallest){
+				if (toCheck.contains(i)) {
+					allowedNeighbors.add(i);
+				}
+			}
+
+			Vertex copy = new Vertex();
+			copy.setId(v.getId());											 // string label
+			copy.setIndexInGraph(v.getIndexInGraph());						 // int id
+			copy.setDescriptorsValues(v.getDescriptorsValues());
+			copy.setDescriptorsScores(v.getDescriptorsScores());
+			copy.setDescriptorsTotals(v.getDescriptorsTotals());
+			copy.setSetOfNeighborsId(allowedNeighbors);
+
+			copyiedVerticies.add(copy);
+		}
+
+		path = path.concat(".graph");
+
+		writeGraph(path, copyiedVerticies);
+		writeProperties(path, copyiedVerticies, descriptorIndex);
+
+		logger.info("Finished writing for path: " + path);
+	}
+
+	private void writeGraph(String path, ArrayList<Vertex> vertexes) {
+		logger.info("Writing graph");
+		try {
+			BufferedWriter file = new BufferedWriter(new FileWriter(path));
+
+			for(Vertex vertex: vertexes) {
+				StringBuilder line =
+						new StringBuilder(vertex.getIndexInGraph() + " " + vertex.getIndexInGraph());
+
+				for (Integer neighbour: vertex.getSetOfNeighborsId()) {
+					line.append(" ").append(neighbour);
+				}
+
+				file.write(line.toString() + '\n');
+			}
+
+			file.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
+	}
+
+	private void writeProperties(String path, ArrayList<Vertex> vertexes, int descriptorIndex) {
+		logger.info("Writing graph properties");
+
+		path = path + ".prop";
+
+		try {
+			BufferedWriter file = new BufferedWriter(new FileWriter(path));
+
+			for(Vertex vertex: vertexes) {
+				StringBuilder line =
+						new StringBuilder("v " + vertex.getIndexInGraph());
+
+				for (Double attribute: vertex.getDescriptorsValues()[descriptorIndex]) {
+					line.append(" ").append(attribute);
+				}
+
+				file.write(line.toString() + '\n');
+			}
+
+			file.close();
+		} catch (IOException e) {
+			e.printStackTrace();
+		}
 	}
 
 	private ArrayList<Double> getRankedSums(int descriptorIndex, ArrayList<Vertex> verticesWithCharacteristic) {
@@ -422,12 +556,15 @@ public class PatternComputer {
 
 	}
 
-	private ReturnedValue enumGoodHyperzones(int descriptorIndex, HashSet<Integer> positiveAttributes,
-			HashSet<Integer> negativeAttributes, SubGraphWithScore k, ArrayList<Candidate> oldCandidates,
-			ArrayList<Double> oldSums, SolutionsOfCC solutionsOfCC, OpenBitSet oldConcernedVertices) {
+//  [onpaper] SUB-CC(S,(K,Y),R,δ,σ)
+//  [onpaper]                                                                                S+                                 S-                      K                     Y                                                               R
+	private ReturnedValue enumGoodHyperzones(int descriptorIndex, HashSet<Integer> positiveAttributes, HashSet<Integer> negativeAttributes, SubGraphWithScore k, ArrayList<Candidate> oldCandidates, ArrayList<Double> oldSums, SolutionsOfCC solutionsOfCC, OpenBitSet oldConcernedVertices) {
 		ReturnedValue myReturnedValue = new ReturnedValue();
 		ArrayList<Candidate> nextCandidates = new ArrayList<>(oldCandidates);
 		int n = 1;
+
+
+//		[onpaper] if UB2(S,K, Y) < δ then
 		if (designPoint.isActivateUB2()) {
 			if (k.getScoreComponents() != null && getUB2(k, nextCandidates.size()) < designPoint.getThreshold()) {
 				myReturnedValue.UB2IsBad = true;
@@ -438,6 +575,8 @@ public class PatternComputer {
 						/ ((double) k.getScoreComponents().getAScore()))) - k.getScoreComponents().getSizeOfHyperzone();
 			}
 		}
+
+//		[onpaper] while |K ∪ Y|≥ σ and Y != ∅ do
 		int currentSize = 0;
 		if (k.getScoreComponents() != null) {
 			currentSize = k.getScoreComponents().getSizeOfHyperzone();
@@ -445,12 +584,15 @@ public class PatternComputer {
 		if (currentSize + nextCandidates.size() < designPoint.getMinSizeSubgraph()) {
 			return myReturnedValue;
 		}
+
+//		[onpaper] if UB3(S,K, Y) < δ then
 		ArrayList<Double> sums = new ArrayList<>(oldSums);
 		if (designPoint.isActivateUB3()) {
 			if (k.getScoreComponents() != null && isUB3Bad(k, nextCandidates, sums)) {
 				return myReturnedValue;
 			}
 		}
+
 		OpenBitSet concernedVertices = new OpenBitSet();
 		concernedVertices.union(oldConcernedVertices);
 
