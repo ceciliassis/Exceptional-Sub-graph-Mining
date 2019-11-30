@@ -1,7 +1,0 @@
-inputFilePath=NYCFoursquareGraph.json
-delta=0.005
-sigma=1
-generationType=WeighedGeneration
-activateSMinus=false
-removeRepetition=true
-executionTimeInMS=200
