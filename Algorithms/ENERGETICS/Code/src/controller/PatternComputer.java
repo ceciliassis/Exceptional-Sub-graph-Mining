@@ -40,6 +40,8 @@ public class PatternComputer {
 
 	int concernedCCSize = 0;
 
+	int run = 0;
+
 	public PatternComputer(MeasureComputer measureComputer) {
 
 		this.measureComputer = measureComputer;
@@ -80,8 +82,7 @@ public class PatternComputer {
 		}
 	}
 
-	private void variateAttributesWithFailFirst(int descriptorIndex, HashSet<Integer> positiveAttributes,
-			HashSet<Integer> negativeAttributes, int i, OpenBitSet candidatesVertices) {
+	private void variateAttributesWithFailFirst(int descriptorIndex, HashSet<Integer> positiveAttributes, HashSet<Integer> negativeAttributes, int i, OpenBitSet candidatesVertices) {
 		if (i < graph.getDescriptorsMetaData()[descriptorIndex].getAttributesName().length) {
 			if (designPoint.isActivateSPlus()) {
 				OpenBitSet newCandidates1 = measureComputer.getVerticesWithIntersectCharacteristics(candidatesVertices,
@@ -91,7 +92,6 @@ public class PatternComputer {
 				if (newCandidates1.cardinality() > 0) {
 					int ii = 0;
 					ArrayList<ArrayList<Vertex>> connectedSubgraphs = extractConnectedSubgraphs(newCandidates1);
-					ii = 0;
 					while (ii < connectedSubgraphs.size()) {
 						if (connectedSubgraphs.get(ii).size() < designPoint.getMinSizeSubgraph()) {
 							for (Vertex v : connectedSubgraphs.get(ii)) {
@@ -173,8 +173,7 @@ public class PatternComputer {
 		}
 	}
 
-	private void variateAttributesDirectly(int descriptorIndex, HashSet<Integer> positiveAttributes,
-			HashSet<Integer> negativeAttributes, int i, int j, OpenBitSet candidatesVertices) {
+	private void variateAttributesDirectly(int descriptorIndex, HashSet<Integer> positiveAttributes, HashSet<Integer> negativeAttributes, int i, int j, OpenBitSet candidatesVertices) {
 		if (designPoint.isActivateSPlus()
 				&& i < graph.getDescriptorsMetaData()[descriptorIndex].getAttributesName().length) {
 			OpenBitSet newCandidates1 = measureComputer.getVerticesWithIntersectCharacteristics(candidatesVertices,
@@ -186,7 +185,6 @@ public class PatternComputer {
 			if (newCandidates1.cardinality() > 0) {
 				int ii = 0;
 				ArrayList<ArrayList<Vertex>> connectedSubgraphs = extractConnectedSubgraphs(newCandidates1);
-				ii = 0;
 				while (ii < connectedSubgraphs.size()) {
 					if (connectedSubgraphs.get(ii).size() < designPoint.getMinSizeSubgraph()) {
 						for (Vertex v : connectedSubgraphs.get(ii)) {
@@ -243,7 +241,6 @@ public class PatternComputer {
 				if (newCandidates2.cardinality() > 0) {
 					int ii = 0;
 					ArrayList<ArrayList<Vertex>> connectedSubgraphs = extractConnectedSubgraphs(newCandidates2);
-					ii = 0;
 					while (ii < connectedSubgraphs.size()) {
 						if (connectedSubgraphs.get(ii).size() < designPoint.getMinSizeSubgraph()) {
 							for (Vertex v : connectedSubgraphs.get(ii)) {
@@ -283,10 +280,9 @@ public class PatternComputer {
 		}
 	}
 
-	private double getUB1(int descriptorIndex, HashSet<Integer> positiveAttributes, HashSet<Integer> negativeAttributes,
-			ArrayList<Vertex> vertices, int posIndex, int negIndex, boolean withBalancing) {
+	private double getUB1(int descriptorIndex, HashSet<Integer> positiveAttributes, HashSet<Integer> negativeAttributes, ArrayList<Vertex> vertices, int posIndex, int negIndex, boolean withBalancing) {
 		double maxA = 0;
-		int k = 0;
+		int k;
 		for (Vertex vertex : vertices) {
 			k = vertex.getIndexInGraph();
 			double currentScore = 0;
@@ -340,8 +336,7 @@ public class PatternComputer {
 				.fraction(k.getScoreComponents().getSizeOfHyperzone() + candidatesNumber, graph.getVertices().length);
 	}
 
-	private ArrayList<Vertex> computeCharacteristic(int descriptorIndex, HashSet<Integer> positiveAttributes,
-			HashSet<Integer> negativeAttributes, ArrayList<ArrayList<Vertex>> connectedSubgraphs) {
+	private ArrayList<Vertex> computeCharacteristic(int descriptorIndex, HashSet<Integer> positiveAttributes, HashSet<Integer> negativeAttributes, ArrayList<ArrayList<Vertex>> connectedSubgraphs) {
 		nbExploredCharacteristics++;
 		for (ArrayList<Vertex> connectedSubgraph : connectedSubgraphs) {
 			if (designPoint.isActivateVariateHyperzoneNaively()) {
@@ -408,8 +403,9 @@ public class PatternComputer {
 		return listOfVertices;
 	}
 
-	private void variateHyperzone(int descriptorIndex, HashSet<Integer> oldPositiveAttributes,
-			HashSet<Integer> oldNegativeAttributes, ArrayList<Vertex> verticesWithCharacteristic) {
+	private void variateHyperzone(int descriptorIndex, HashSet<Integer> oldPositiveAttributes, HashSet<Integer> oldNegativeAttributes, ArrayList<Vertex> verticesWithCharacteristic) {
+		run += 1;
+
 		System.out.println("sizeOfHyp : " + verticesWithCharacteristic.size());
 		HashSet<Integer> positiveAttributes = new HashSet<>(oldPositiveAttributes);
 		HashSet<Integer> negativeAttributes = new HashSet<>(oldNegativeAttributes);
@@ -420,29 +416,33 @@ public class PatternComputer {
 			concernedVertices.fastSet(v.getIndexInGraph());
 		}
 
-//		ArrayList<Candidate> candidates = measureComputer.getRankedCandidates(verticesWithCharacteristic, descriptorIndex, positiveAttributes, negativeAttributes);
-
+		ArrayList<Candidate> candidates = measureComputer.getRankedCandidates(verticesWithCharacteristic, descriptorIndex, positiveAttributes, negativeAttributes);
 
 //		NOTE: candidates == concerned vertices
 
-//		ArrayList<Double> sortedSums = getRankedSums(descriptorIndex, verticesWithCharacteristic);
-//		SolutionsOfCC solutionsOfCC = new SolutionsOfCC(graph.getVertices().length);
-//		concernedCCSize = verticesWithCharacteristic.size();
-
-
-//		TODO: 1. write graph to file
-
-		write(concernedVertices, descriptorIndex);
-
-
-//		TODO: 2. call fractal
-
-
+		ArrayList<Double> sortedSums = getRankedSums(descriptorIndex, verticesWithCharacteristic);
+		SolutionsOfCC solutionsOfCC = new SolutionsOfCC(graph.getVertices().length);
+		concernedCCSize = verticesWithCharacteristic.size();
 
 
 //		[onpaper] SUB-CC(S,(K,Y),R,δ,σ)
 //		[onpaper]                             S+                   S-               K       Y                     R
-//		enumGoodHyperzones(descriptorIndex, positiveAttributes, negativeAttributes, k, candidates, sortedSums, solutionsOfCC, concernedVertices);
+		enumGoodHyperzones(descriptorIndex, positiveAttributes, negativeAttributes, k, candidates, sortedSums, solutionsOfCC, concernedVertices);
+
+		writeResultInFile();
+
+		System.out.println("Resultado");
+
+
+//		TODO: 1. write graph to file
+		write(concernedVertices, descriptorIndex);
+
+//		TODO: 2. call fractal
+
+
+		if (run == 1){
+			System.out.println("LALA");
+		}
 	}
 
 	private void write(OpenBitSet concernedVertices, int descriptorIndex) {
@@ -451,7 +451,7 @@ public class PatternComputer {
 		ArrayList<Vertex> currentVertices = descoverBitsetVertices(concernedVertices);
 		HashSet<Integer> currentVecticesId = new HashSet<>();
 
-		String path =  "candidates";
+		String path =  "candidates_" + run;
 
 		for (Vertex v : currentVertices) {
 			Integer id  = v.getIndexInGraph();
@@ -572,7 +572,7 @@ public class PatternComputer {
 			}
 			if (k.getScoreComponents() != null) {
 				n = ((int) Math.ceil(designPoint.getThreshold() * ((double) graph.getVertices().length)
-						/ ((double) k.getScoreComponents().getAScore()))) - k.getScoreComponents().getSizeOfHyperzone();
+						/ k.getScoreComponents().getAScore())) - k.getScoreComponents().getSizeOfHyperzone();
 			}
 		}
 
@@ -603,10 +603,9 @@ public class PatternComputer {
 			KUnionCand currentUnion = listOfNewHyperzones.get(0);
 			k.addCandidate(currentUnion);
 			listOfNewHyperzones.remove(0);
-			int j = 0;
-			Vertex nextV = null;
-			Candidate nextVCand = null;
-			j = Collections.binarySearch(nextCandidates, currentUnion.getCand(), Collections.reverseOrder());
+			Vertex nextV ;
+			Candidate nextVCand;
+			int j = Collections.binarySearch(nextCandidates, currentUnion.getCand(), Collections.reverseOrder());
 			nextV = graph.getVertices()[nextCandidates.get(j).getVertexId()];
 			nextVCand = nextCandidates.get(j);
 			nextCandidates.remove(j);
@@ -896,7 +895,7 @@ public class PatternComputer {
 			generateHyperzonesNaively(verticesWithCharacteristic, descriptorIndex, positiveAttributes,
 					negativeAttributes, verticesNotYetExplored, connectedSubGraph, neighbors, scoreComponent);
 			connectedSubGraph.add(currentV);
-			ScoreComponents newScore = null;
+			ScoreComponents newScore;
 			if (scoreComponent == null) {
 				Candidate c = measureComputer.getCandidateForVertex(currentV, descriptorIndex, positiveAttributes,
 						negativeAttributes);
