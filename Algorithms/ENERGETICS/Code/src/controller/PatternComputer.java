@@ -3,10 +3,7 @@ package controller;
 import java.io.BufferedWriter;
 import java.io.FileWriter;
 import java.io.IOException;
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.HashSet;
+import java.util.*;
 import java.util.logging.Logger;
 
 import org.apache.lucene.util.OpenBitSet;
@@ -464,7 +461,7 @@ public class PatternComputer {
 			map++;
 		}
 
-		ArrayList<Vertex> copyiedVerticies = new ArrayList<>();
+		HashMap<Integer, Vertex> copyiedVerticies = new HashMap<>();
 
 		for (Vertex v : currentVertices) {
 			HashSet<Integer> allowedNeighbors = new HashSet<>();
@@ -495,7 +492,16 @@ public class PatternComputer {
 			copy.setDescriptorsTotals(v.getDescriptorsTotals());
 			copy.setSetOfNeighborsId(allowedNeighbors);
 
-			copyiedVerticies.add(copy);
+			copyiedVerticies.put(id, copy);
+		}
+
+		for (Map.Entry<Integer, Vertex> entry : copyiedVerticies.entrySet()) {
+			Vertex x = entry.getValue();
+			Integer vertexId = entry.getKey();
+
+			for (Integer neigh: x.getSetOfNeighborsId()) {
+				copyiedVerticies.get(neigh).getSetOfNeighborsId().remove(vertexId);
+			}
 		}
 
 		path = path.concat(".graph");
@@ -506,12 +512,13 @@ public class PatternComputer {
 		logger.info("Finished writing for path: " + path);
 	}
 
-	private void writeGraph(String path, ArrayList<Vertex> vertexes) {
+	private void writeGraph(String path, HashMap<Integer, Vertex> vertexes) {
 		logger.info("Writing graph");
 		try {
 			BufferedWriter file = new BufferedWriter(new FileWriter(path));
 
-			for(Vertex vertex: vertexes) {
+			for(Map.Entry<Integer, Vertex> entry: vertexes.entrySet()) {
+				Vertex vertex = entry.getValue();
 				StringBuilder line =
 						new StringBuilder(vertex.getId() + " " + vertex.getIndexInGraph());
 
@@ -528,7 +535,7 @@ public class PatternComputer {
 		}
 	}
 
-	private void writeProperties(String path, ArrayList<Vertex> vertexes, int descriptorIndex) {
+	private void writeProperties(String path, HashMap<Integer, Vertex> vertexes, int descriptorIndex) {
 		logger.info("Writing graph properties");
 
 		path = path + ".prop";
@@ -536,7 +543,9 @@ public class PatternComputer {
 		try {
 			BufferedWriter file = new BufferedWriter(new FileWriter(path));
 
-			for(Vertex vertex: vertexes) {
+			for(Map.Entry<Integer, Vertex> entry : vertexes.entrySet()) {
+				Vertex vertex = entry.getValue();
+
 				StringBuilder line =
 						new StringBuilder("v " + vertex.getId());
 
