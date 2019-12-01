@@ -30,7 +30,7 @@ public class Pattern {
 			} else {
 				jsonString += ",";
 			}
-			jsonString += "\"" + v.getId() + "\"";
+			jsonString += "\"" + v.getIndexInGraph() + "\"";
 		}
 		jsonString += "],\n";
 		jsonString += tabulation + "\t\"characteristic\" : \n";
