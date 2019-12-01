@@ -118,5 +118,4 @@ public class GraphBuilder {
 		}
 		return builtGraph;
 	}
-
 }

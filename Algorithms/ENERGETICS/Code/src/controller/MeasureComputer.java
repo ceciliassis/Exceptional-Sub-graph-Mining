@@ -81,6 +81,7 @@ public class MeasureComputer {
 		return graph;
 	}
 
+//	NOTE: o graph apos construção recebe as medidas calculadas
 	public void processVertexMeasures() {
 		totalDescriptorsValues = new double[graph.getDescriptorsMetaData().length][];
 		descriptorsTotalSum = new double[graph.getDescriptorsMetaData().length];

@@ -15,14 +15,17 @@ import model.Graph;
 
 public class MainClass {
 	public static final String PARAMETERS_FILE_NAME="inputParameters.txt";
-	public static String inputFilePath="FoursquareGraph.json";
+	public static String inputFilePath="FoursquareGraph";
 	public static String indicatorsFilePath="resultIndicatorFile.txt";
 	public static void main(String[] args) {
 		DesignPoint designPoint=new DesignPoint();
 		readParametersFromFile(designPoint);
 		System.out.println("input file path : "+inputFilePath);
-		Graph graph = new GraphBuilder(inputFilePath).build();
+		Graph graph = new GraphBuilder(inputFilePath.concat(".json")).build();
 		System.out.println(graph.getVertices().length);
+
+		new com.cecilia.models.Graph(inputFilePath.concat(".json")).write(inputFilePath.concat(".graph"));
+
 		long startTime = System.currentTimeMillis();
 		PatternComputer computer = new PatternComputer(new MeasureComputer(graph));
 		computer.computePatterns(designPoint);

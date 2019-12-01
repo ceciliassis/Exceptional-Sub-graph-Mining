@@ -432,7 +432,7 @@ public class PatternComputer {
 
 
 //		TODO: 1. write graph to file
-		write(concernedVertices, descriptorIndex);
+		write(concernedVertices, descriptorIndex, positiveAttributes, negativeAttributes);
 
 //		TODO: 2. call fractal
 
@@ -442,7 +442,8 @@ public class PatternComputer {
 		}
 	}
 
-	private void write(OpenBitSet concernedVertices, int descriptorIndex) {
+	private void write(OpenBitSet concernedVertices, int descriptorIndex,
+					   HashSet<Integer> posAtts, HashSet<Integer> negAtts) {
 		logger.info("Gathering vertices to write file");
 
 		ArrayList<Vertex> currentVertices = descoverBitsetVertices(concernedVertices);
@@ -507,7 +508,7 @@ public class PatternComputer {
 		path = path.concat(".graph");
 
 		writeGraph(path, copyiedVerticies);
-		writeProperties(path, copyiedVerticies, descriptorIndex);
+		writeProperties(path, copyiedVerticies, descriptorIndex, posAtts, negAtts);
 
 		logger.info("Finished writing for path: " + path);
 	}
@@ -535,7 +536,8 @@ public class PatternComputer {
 		}
 	}
 
-	private void writeProperties(String path, HashMap<Integer, Vertex> vertexes, int descriptorIndex) {
+	private void writeProperties(String path, HashMap<Integer, Vertex> vertexes, int descriptorIndex,
+								 HashSet<Integer> posAtts, HashSet<Integer> negAtts) {
 		logger.info("Writing graph properties");
 
 		path = path + ".prop";
@@ -549,7 +551,24 @@ public class PatternComputer {
 				StringBuilder line =
 						new StringBuilder("v " + vertex.getId());
 
+//				Add # positive attributes
+				line.append(" ").append((double) posAtts.size());
+//				Add positive attributes idx
+				for (Integer attribute: posAtts) {
+					line.append(" ").append((double) attribute);
+				}
+
+				line.append(" ").append((double) negAtts.size());
+				for (Integer attribute: negAtts) {
+					line.append(" ").append((double) attribute);
+				}
+
+				line.append(" ").append(vertex.getDescriptorsValues()[descriptorIndex].length);
 				for (Double attribute: vertex.getDescriptorsValues()[descriptorIndex]) {
+					line.append(" ").append(attribute);
+				}
+
+				for (Double attribute: vertex.getDescriptorsTotals()) {
 					line.append(" ").append(attribute);
 				}
 
