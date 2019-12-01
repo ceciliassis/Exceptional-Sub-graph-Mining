@@ -450,13 +450,18 @@ public class PatternComputer {
 
 		ArrayList<Vertex> currentVertices = descoverBitsetVertices(concernedVertices);
 		HashSet<Integer> currentVecticesId = new HashSet<>();
+		HashMap<Integer, Integer> verticesMap = new HashMap<>();
 
 		String path =  "candidates_" + run;
+
+		int map = 0;
 
 		for (Vertex v : currentVertices) {
 			Integer id  = v.getIndexInGraph();
 			path += "_" + id.toString();
 			currentVecticesId.add(id);
+			verticesMap.put(id, map);
+			map++;
 		}
 
 		ArrayList<Vertex> copyiedVerticies = new ArrayList<>();
@@ -473,12 +478,17 @@ public class PatternComputer {
 
 			for (Integer i: smallest){
 				if (toCheck.contains(i)) {
-					allowedNeighbors.add(i);
+					allowedNeighbors.add(verticesMap.get(i));
 				}
 			}
 
 			Vertex copy = new Vertex();
-			copy.setId(v.getId());											 // string label
+
+			int label = v.getIndexInGraph();
+			Integer id = verticesMap.get(label);
+
+
+			copy.setId(id.toString());											 // string label
 			copy.setIndexInGraph(v.getIndexInGraph());						 // int id
 			copy.setDescriptorsValues(v.getDescriptorsValues());
 			copy.setDescriptorsScores(v.getDescriptorsScores());
@@ -503,7 +513,7 @@ public class PatternComputer {
 
 			for(Vertex vertex: vertexes) {
 				StringBuilder line =
-						new StringBuilder(vertex.getIndexInGraph() + " " + vertex.getIndexInGraph());
+						new StringBuilder(vertex.getId() + " " + vertex.getIndexInGraph());
 
 				for (Integer neighbour: vertex.getSetOfNeighborsId()) {
 					line.append(" ").append(neighbour);
@@ -528,7 +538,7 @@ public class PatternComputer {
 
 			for(Vertex vertex: vertexes) {
 				StringBuilder line =
-						new StringBuilder("v " + vertex.getIndexInGraph());
+						new StringBuilder("v " + vertex.getId());
 
 				for (Double attribute: vertex.getDescriptorsValues()[descriptorIndex]) {
 					line.append(" ").append(attribute);
